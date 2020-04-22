@@ -51,9 +51,6 @@
 
 ### Exercises  
 
-{% file src="../.gitbook/assets/\_advanced\_grammar\_in\_use.pdf" %}
-
-{% file src="../.gitbook/assets/keys.pdf" %}
 
 **Notes:**
 
