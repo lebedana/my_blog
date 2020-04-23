@@ -5,6 +5,7 @@
   * [\[April, 2020\] The Culture Code: The Secrets of Highly Successful Groups by Daniel Coyle](books/2017-the-culture-code-the-secrets-of-highly-successful-groups-by-daniel-coyle.md)
 * [Engineering](engineering/README.md)
   * [TODO](engineering/todo.md)
+  * [Bash](engineering/bash.md)
   * [Git](engineering/git.md)
   * [Linux tools](engineering/linux-tools.md)
 * [English](english/README.md)
