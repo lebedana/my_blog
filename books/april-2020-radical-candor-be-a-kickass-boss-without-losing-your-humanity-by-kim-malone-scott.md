@@ -30,6 +30,7 @@ Categories/Tags: self-growth, management, team work, success
 * Quiet listening \(count to six, listening on one-to-one ..\) 
 * Don't waste teams time \(e.g. meetings\)
 * Block time to execute \(for walking around, thinking, creating ..\) 
+* Be aware of "Pressure to be consistent"
 
 ### RC Quadrants
 
