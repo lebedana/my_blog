@@ -10,8 +10,8 @@ Categories/Tags: self-growth, management, team work, success
 
 ## What I like the most about the book:
 
-* Very honest, contains lessons learned on mistakes & misunderstanding
-* Contains many stories about managing from Facebook, Google, Tweeter  
+* Very honest, contains lessons learned on mistakes & misunderstandings
+* Contains many stories about managing in Facebook, Google, Tweeter ... 
 
 ## Notes and Facts:
 
@@ -31,6 +31,9 @@ Categories/Tags: self-growth, management, team work, success
 * Don't waste teams time \(e.g. meetings\)
 * Block time to execute \(for walking around, thinking, creating ..\) 
 * Be aware of "Pressure to be consistent"
+* Be centered no matter what
+* Usage of word "guys"
+* Show, don't tell 
 
 ### RC Quadrants
 
@@ -99,7 +102,7 @@ Categories/Tags: self-growth, management, team work, success
 * Have idea clear in your mind 
 * Keep conversation focused on ideas, not egos \(remind of the goals, 
 * Debate, force two perspectives, but be clear when the debate ends
-* Before coming to a resolution, be sure why decision is made, be aware of ego, you are not the desider \(usually\) 
+* Before coming to a resolution, be sure why decision is made, be aware of ego, you are not the desired \(usually\) 
 
 
 
