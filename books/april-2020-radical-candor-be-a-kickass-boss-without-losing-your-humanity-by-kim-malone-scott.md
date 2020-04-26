@@ -15,7 +15,7 @@ Categories/Tags: self-growth, management, team work, success
 
 ## Notes and Facts:
 
-* Boss/manager = partner 
+* Boss/manager = partner \(absent manager -- partner -- micromanager\)
 * Knew what drives/motivates each person in your team 
 * Challenge directly and ask people to do the same 
 * Practice radical candid "up", "down", "sideways"
@@ -25,6 +25,8 @@ Categories/Tags: self-growth, management, team work, success
 * "You work is shit" - SJ - still not personal, very straight and left no room for disc.
 * "Just say it" 
 * "Give a damn"
+* Give people change to fix their mistakes 
+* Recognise, what is your job: to convince, to tell the truth, to care personally etc 
 
 ### RC Quadrants
 
@@ -54,11 +56,44 @@ Categories/Tags: self-growth, management, team work, success
 
 ### Growth  
 
-Rockstart
+![Growth Trajectory vs Performance](../.gitbook/assets/1_uccbfn4ywmfcrnmrgl_4wq.jpeg)
+
+####  Rockstars
+
+* Force for stability; ambitious outside of work or simply content in life; happy in the current role
+* Recognise, reward, do not promote \(might be dangerous\) 
+
+**Superstars** 
+
+* Change agent; Ambitious at work; Want new opportunities
+* Keep them challenged 
+* .. but figure out who will replace them when they are gone 
+
+#### Other:
+
+* Just avoiding firing; before firing: 
+  * Third opinion 
+  * how the person effects the team
+  * Be radically candored
+* Common lies: 
+  * It will get better
+  * Somebody is better then nobody 
+  * A transfer is the answer 
+  * It's bad for team's morale 
+* Reason of performing poorly: 
+
+  * Wrong role
+  * Too much, too fast 
+  * Poor fit with the company 
+  * Personal problems
 
 
 
-Superstars 
+
+
+
+
+
 
 ## Thoughts and Ideas:
 
