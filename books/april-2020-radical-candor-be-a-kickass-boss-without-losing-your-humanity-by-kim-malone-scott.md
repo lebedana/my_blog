@@ -19,27 +19,46 @@ Categories/Tags: self-growth, management, team work, success
 * Knew what drives/motivates each person in your team 
 * Challenge directly and ask people to do the same 
 * Practice radical candid "up", "down", "sideways"
+* Don't dish it out before you show you can take a criticism 
+* Ask: "What I can do to make you live better?"
+* Reword candor and criticism 
+* "You work is shit" - SJ - still not personal, very straight and left no room for disc.
+* "Just say it" 
+* "Give a damn"
+
+### RC Quadrants
 
 ![RC Quadrants](../.gitbook/assets/0-1.jpeg)
 
-### Radical Candor
+#### Radical Candor
 
 * Can be applied outside of work as well 
 * Give explanation to both prise and critics
 
-### Obnoxious Aggression
+#### Obnoxious Aggression
 
 * When criticising about caring
 * Might be better than MI or RE - honest, team still is able to archive results 
 * The worst kind of aggression happens when boss understands other person's vulnerability 
 * Prise can be obnoxiously aggressive, too 
 
-### Manipulative Insincerity 
+#### Manipulative Insincerity 
 
 * When you do not care to challenge directly 
 * False apology 
 
-### Ruinous Empathy 
+#### Ruinous Empathy 
+
+* Problem of "Just trying to say something nice"
+* Do research before giving a praise \(especially publicly\) 
+
+### Growth  
+
+Rockstart
+
+
+
+Superstars 
 
 ## Thoughts and Ideas:
 
