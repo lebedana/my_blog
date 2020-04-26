@@ -27,6 +27,9 @@ Categories/Tags: self-growth, management, team work, success
 * "Give a damn"
 * Give people change to fix their mistakes 
 * Recognise, what is your job: to convince, to tell the truth, to care personally etc 
+* Quiet listening \(count to six, listening on one-to-one ..\) 
+* Don't waste teams time \(e.g. meetings\)
+* Block time to execute \(for walking around, thinking, creating ..\) 
 
 ### RC Quadrants
 
@@ -87,7 +90,15 @@ Categories/Tags: self-growth, management, team work, success
   * Poor fit with the company 
   * Personal problems
 
+### GSD wheel 
 
+![](../.gitbook/assets/drzx4owwsaa6tum.jpg)
+
+* Quite listening vs Loud Listening \(e.g. how SJ puts ideas on the table\) 
+* Have idea clear in your mind 
+* Keep conversation focused on ideas, not egos \(remind of the goals, 
+* Debate, force two perspectives, but be clear when the debate ends
+* Before coming to a resolution, be sure why decision is made, be aware of ego, you are not the desider \(usually\) 
 
 
 
