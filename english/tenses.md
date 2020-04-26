@@ -1,6 +1,6 @@
 # Tenses
 
-## Present Perfect 
+## Present Perfect
 
 **Rule:** have/has + V3
 
@@ -18,19 +18,18 @@
 * I **have been** to France
 * The government **has become** more interested in arts education.
 
-**See also:** 
+**See also:**
 
 * \*\*\*\*[When should I use the Present Perfect Simple Tense](https://www.perfect-english-grammar.com/present-perfect-use.html) 
-* 
-## Past Perfect 
+* **Past Perfect**
 
 \*\*\*\*
 
-## Present Perfect Progressive/Continuous 
+## Present Perfect Progressive/Continuous
 
-**Rule:**  have/has been + V-ing
+**Rule:** have/has been + V-ing
 
-**When:** 
+**When:**
 
 * action last for some time \(there is _for_ or _since \)_
 * completed action with a vivid result
@@ -42,19 +41,16 @@
 * We have been waiting since morning
 * Your eyes are red. Have you been crying?
 
-**Exceptions:** 
+**Exceptions:**
 
 * know, belong, like, understand - can not be used in continuous 
 * want and other abstract verbs - can be used \(in american english\) 
 
-
-
-### Exercises  
-
+### Exercises
 
 **Notes:**
 
-6.2. \(2\) me: have died , in keys: died 
+6.2. \(2\) me: have died , in keys: died
 
 **Q:**
 
