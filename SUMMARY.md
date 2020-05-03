@@ -13,6 +13,7 @@
   * [New words & Phrases](english/new-words-and-phrases.md)
   * [Tenses](english/tenses.md)
   * [Verbs](english/verbs.md)
+* [Films](films.md)
 * [History](history/README.md)
   * [US](history/us/README.md)
     * [Nationalism](history/us/nationalism.md)
