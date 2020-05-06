@@ -30,8 +30,26 @@ Challenges:
     * Problem 1: do a lot of READ/WRITE operations to the Disk 
     * Problem 2: complexity of writing code
   * \[2005\] Hadoop = GDS + MR
-  * \[2009\] Spark - in-memory distributed computing 
-    * 
+  * \[2009\] Spark - in-memory distributed computing engine 
+    * Problem 1 resolved by computing in-memory
+    * Thanks to OS Spark nature, collaborators solved problem 2
+    * Spark can work with huge amount of data source \(vs MR only HDFS\) - e.g. Kafka, MySQL, PG, hadoop, mongoDB ...
+  * \[2014 - ? \] Databricks
+
+    * Features on top of Spark 
+      * Spark is managed  - 2 to 5 times faster than OS Spark 
+      * Interactive notebooks
+      * Natively Distributed 
+      * Autoscaling 
+      * Serverless
+      * DB runtime is extended with TF, PyTorch and other libraries
+      * Monitoring 
+    * Integrations
+      * Integration with Google and Alibaba - end of the 2020/2021
+      * Can be used with private cloud 
+      * Will be used on-prem
+
+ 
 
 ![MR Problem 1](../../.gitbook/assets/image%20%281%29.png)
 
