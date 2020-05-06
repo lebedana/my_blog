@@ -101,10 +101,20 @@ Apache Spark:
     * Stage \(set of tasks which can be executed in parallel\) 
     * Task \(read, filter, select, groupby, rename column, drop column..\) 
   * Cluster manager - responsable for cluster provisioning 
+* Notebooks:
+  * %sh is executed on driver 
+  * Variable are not translated between languages 
+  * %run magic \(run notebook from other notebook\)
+  * %fs - dbutils and sh combined
+  * dbutils
+    * mount does not mean coping 
+    * modifying \(including removal\) of the mounted data will modify data in source 
+    * dbutils.fs.help\(\)
 
 
 
-
+* connected to dbfs - drivers do not have file system 
+* dbfs - driver and workers use same filesystem 
 
 ## Questions: 
 
