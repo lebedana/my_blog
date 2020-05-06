@@ -72,11 +72,15 @@ Apache Spark:
 * APIs 
   * Scala, Python, Java
   * For data there are RDD API  - low level APIs - complex 
-    * it is collection of API to query and transform in Scala, Python, SQL, R. Options for DF API calls: 
+    * it is collection of API to query and transform in Scala, Python, SQL, R. Options for DF API calls \(they are translated to RDD API\)
       * SQL/DataFrame API 
       * Structure streaming 
       * Graphics 
       * MLlib 
+* RDDs
+  * Distributed 
+  * Immutable \(any modification create immutable RDD\): File --&gt; RDD1 --&gt; RDD2 --&gt; F
+  * 
 
 
 
