@@ -15,7 +15,7 @@
 * Concurrent - migth be used by multiple users 
 * Pulling - keeps some ready pre-hitted instances \(launching takes 15sec - vs 5-8 minutes-\) - you do not pay DB, but Azure for the instance
 
-## Introduction 
+## Introduction/History
 
 Challenges: 
 
@@ -34,7 +34,7 @@ Challenges:
     * Problem 1 resolved by computing in-memory
     * Thanks to OS Spark nature, collaborators solved problem 2
     * Spark can work with huge amount of data source \(vs MR only HDFS\) - e.g. Kafka, MySQL, PG, hadoop, mongoDB ...
-  * \[2014 - ? \] Databricks
+  * \[2013 \] Databricks
 
     * Features on top of Spark 
       * Spark is managed  - 2 to 5 times faster than OS Spark 
@@ -53,7 +53,30 @@ Challenges:
 
 ![MR Problem 1](../../.gitbook/assets/image%20%281%29.png)
 
+## Databricks
 
+![Multiple laters of DB](../../.gitbook/assets/image%20%282%29.png)
+
+
+
+Apache Spark:
+
+* Core = Spark engine \(RUNS in worker and runner\) 
+
+  * Load data to RAM \(using RDD code - resilient distributed dataset\)
+  * Distribution - if required \(when required - ?\)
+  * Scheduling task and provide the workers with tasks
+  * Monitoring 
+  * Getting results from workers 
+
+* APIs 
+  * Scala, Python, Java
+  * For data there are RDD API  - low level APIs - complex 
+    * it is collection of API to query and transform in Scala, Python, SQL, R. Options for DF API calls: 
+      * SQL/DataFrame API 
+      * Structure streaming 
+      * Graphics 
+      * MLlib 
 
 
 
