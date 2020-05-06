@@ -96,7 +96,24 @@ Apache Spark:
   * The same for the executed point of view - multiple executor processes
   * Slot - core in the executor VM
   * Distribution of data defined based on **data partitioning.** User can give number of partitions \(but spark has default configuration\)  - there is default value 
-  * 
+  * Components \(Orchestrated by the driver\)
+    * Job  = set of tasks
+    * Stage \(set of tasks which can be executed in parallel\) 
+    * Task \(read, filter, select, groupby, rename column, drop column..\) 
+  * Cluster manager - responsable for cluster provisioning 
+
+
+
+
+
+## Questions: 
+
+From a developer's and student's perspective my primary focus is on...
+
+* The number of **Partitions** my data is divided into.
+* The number of **Slots** I have for parallel execution.
+* How many **Jobs** am I triggering?
+* And lastly the **Stages** those jobs are divided into.
 
 
 
