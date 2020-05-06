@@ -79,7 +79,23 @@ Apache Spark:
       * MLlib 
 * RDDs
   * Distributed 
-  * Immutable \(any modification create immutable RDD\): File --&gt; RDD1 --&gt; RDD2 --&gt; F
+  * Immutable \(any modification create immutable RDD\): File1 --&gt; RDD1 --&gt; RDD2 --&gt; File2
+  * Lineage
+  * Resilient \(?\)
+
+    * Map
+    * Transofrm
+
+  * Dataframe vs RDD
+
+    * Dataframe is faster then RDD \(uses optimization when translated\)
+* Cluster:
+  * Master-slave arcitecture 
+  * Master=Driver \(Driver VM\)
+  * Every application needs own driver process in the Driver JVM
+  * The same for the executed point of view - multiple executor processes
+  * Slot - core in the executor VM
+  * Distribution of data defined based on **data partitioning.** User can give number of partitions \(but spark has default configuration\)  - there is default value 
   * 
 
 
