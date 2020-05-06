@@ -7,6 +7,8 @@
 * [Engineering](engineering/README.md)
   * [Bash](engineering/bash.md)
   * [Data](engineering/data.md)
+  * [Databricks/Spark](engineering/databricks-spark/README.md)
+    * [\[May 2020\] Databricks Technical Training](engineering/databricks-spark/may-2020-databricks-technical-training.md)
   * [Git](engineering/git.md)
   * [Linux tools](engineering/linux-tools.md)
   * [MLOps](engineering/mlops.md)
