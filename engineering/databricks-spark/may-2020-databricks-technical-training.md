@@ -9,6 +9,7 @@
 ### Other
 
 * dbc - databricks compressed files
+* DB creates Spark session
 
 ### Cluster creation
 
@@ -116,7 +117,75 @@ Apache Spark:
 * connected to dbfs - drivers do not have file system 
 * dbfs - driver and workers use same filesystem 
 
+## Data
+
+### DF:
+
+* If schema is not provided data are **unstructured** 
+  * csv -reads unstructured data 
+* Spark will try to guess the structure \(if inferSchema is true\) 
+  * Spark job will be run 
+* We can also declare schema by ourselves \(using pyspark.sql.types\) 
+  * Faster 
+  * Do not use spark jobs \( performed on driver\)
+* To get data to dbfs, we need to read it \(including file system as a source\) 
+* saveAsTable 
+  * The DataFrame method `saveAsTable` registers the data currently referenced in the DataFrame to the metastore and saves a copy of the data.
+
+    If a `"path"` is not provided, Spark will create a managed table, meaning that both the metadata AND data are copied and stored in the root storage DBFS associated with the workspace. This means that dropping or modifying the table will modify the data in the DBFS. An unmanaged table allows decoupling of the data and the metadata, so a table can easily be renamed or removed from the workspace without deleting or migrating the underlying data.
+
+    Save `weatherDF` as an unmanaged table. Use the `tablePath` provided with the `"path"` option. Set the mode to `"overwrite"` \(which will drop the table if it currently exists\). Pass the table name `"weather"` to the `saveAsTable` method.
+
+### Tables:
+
+* Are persistent between notebooks and sessions
+* Are available to all users \(having permissions\)
+* A tmp table can be created from a table 
+
+### Temporary tables/view:
+
+* Exits 
+  * only in the notebook
+  * only in the spark session 
+* Can be transformed to permanent table
+
+### Managed/External
+
+* Weather it will be registered in metastore or not
+* DF.write.option\(\) - will register table to MS
+* What are other options? 
+* If we drop data, data are deleted 
+* External data drop will remove data only from the metastore 
+* ??
+
+### Formats:
+
+* Delta - ?
+* Parque  
+  * structured \(has schema attached\) 
+* Snappy - impression - \(?\)
+
+### Tips: 
+
+* %who DataFrame - show existing in the NB dataframes
+
+### Summary
+
+* DataFrames, tables, and views provide robust access to optimized Spark computations.
+* DataFrames and views provide similar temporary access to data; tables persist these access patterns to the workspace.
+* No job is executed when creating a DataFrame from a table - the schema is stored in the table definition on Databricks.
+
+
+
+ 
+
+
+
+
+
 ## Questions: 
+
+* Delta vs Parque
 
 From a developer's and student's perspective my primary focus is on...
 
