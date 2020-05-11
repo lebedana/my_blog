@@ -119,7 +119,7 @@ Apache Spark:
 
 ## Data
 
-### DF:
+### DF
 
 * If schema is not provided data are **unstructured** 
   * csv -reads unstructured data 
@@ -129,20 +129,15 @@ Apache Spark:
   * Faster 
   * Do not use spark jobs \( performed on driver\)
 * To get data to dbfs, we need to read it \(including file system as a source\) 
-* saveAsTable 
-  * The DataFrame method `saveAsTable` registers the data currently referenced in the DataFrame to the metastore and saves a copy of the data.
+* saveAsTable - registers the data currently referenced in the DataFrame to the metastore and saves a copy of the data
 
-    If a `"path"` is not provided, Spark will create a managed table, meaning that both the metadata AND data are copied and stored in the root storage DBFS associated with the workspace. This means that dropping or modifying the table will modify the data in the DBFS. An unmanaged table allows decoupling of the data and the metadata, so a table can easily be renamed or removed from the workspace without deleting or migrating the underlying data.
-
-    Save `weatherDF` as an unmanaged table. Use the `tablePath` provided with the `"path"` option. Set the mode to `"overwrite"` \(which will drop the table if it currently exists\). Pass the table name `"weather"` to the `saveAsTable` method.
-
-### Tables:
+### Tables
 
 * Are persistent between notebooks and sessions
 * Are available to all users \(having permissions\)
 * A tmp table can be created from a table 
 
-### Temporary tables/view:
+### Temporary tables/view
 
 * Exits 
   * only in the notebook
@@ -158,16 +153,15 @@ Apache Spark:
 * External data drop will remove data only from the metastore 
 * ??
 
-### Formats:
+### Formats
 
 * Delta - ?
 * Parque  
   * structured \(has schema attached\) 
 * Snappy - impression - \(?\)
 
-### Tips: 
+### Tips:%who DataFrame - show existing in the NB dataframes
 
-* %who DataFrame - show existing in the NB dataframes
 * DF.explain\(extended=True\) - explain plan 
 * %sql describe history TB
 
@@ -202,33 +196,38 @@ Delta Lakes features:
 * Allows to get rid of Lambda architecture
 * Created by DB \(now donated as OS\) 
 
-#### Key Features
-
-[Quick start intro to Delta Lake.](https://docs.delta.io/latest/quick-start.html#)
-
-**ACID Transactions**: Data lakes typically have multiple data pipelines reading and writing data concurrently, and data engineers have to go through a tedious process to ensure data integrity, due to the lack of transactions. Delta Lake brings ACID transactions to your data lakes. It provides serialisability, the strongest level of isolation level.
-
-**Scalable Metadata Handling**: In big data, even the metadata itself can be "big data". Delta Lake treats metadata just like data, leveraging Spark's distributed processing power to handle all its metadata. As a result, Delta Lake can handle petabyte-scale tables with billions of partitions and files at ease.
-
-**Time Travel \(data versioning\)**: Delta Lake provides snapshots of data enabling developers to access and revert to earlier versions of data for audits, rollbacks or to reproduce experiments.
-
-**Open Format**: All data in Delta Lake is stored in Apache Parquet format enabling Delta Lake to leverage the efficient compression and encoding schemes that are native to Parquet.
-
-**Unified Batch and Streaming Source and Sink**: A table in Delta Lake is both a batch table, as well as a streaming source and sink. Streaming data ingest, batch historic backfill, and interactive queries all just work out of the box.
-
-**Schema Enforcement**: Delta Lake provides the ability to specify your schema and enforce it. This helps ensure that the data types are correct and required columns are present, preventing bad data from causing data corruption.
-
-**Schema Evolution**: Big data is continuously changing. Delta Lake enables you to make changes to a table schema that can be applied automatically, without the need for cumbersome DDL.
-
-**100% Compatible with Apache Spark API**: Developers can use Delta Lake with their existing data pipelines with minimal change as it is fully compatible with Spark, the commonly used big data processing engine.
-
-
-
 ### Managed DL
 
 * optimize - optimize sizes of files \(app 1GB\)
-* zorder - organize file to increase querying  
-* 
+* zorder - reorganize file to increase querying  
+
+
+
+## Streaming application
+
+### Complexity: 
+
+* Complex data 
+  * diverse data format 
+  * Can be dirty 
+  * Can be out of order 
+* Complex workfloads 
+  * data processing 
+* Complex systems 
+  * diverse storage 
+  * system failures 
+
+### Features: 
+
+* Data frame is continuously increasing 
+* Spark before: incremental micro batch processing
+  * clusters are shared for parallel multiple streams 
+* New Spark 3.0: structure streaming  processing 
+  * one cluster dedicated to one stream 
+  * 
+
+
+
 
 
 
