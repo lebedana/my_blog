@@ -46,6 +46,19 @@
 * know, belong, like, understand - can not be used in continuous 
 * want and other abstract verbs - can be used \(in american english\) 
 
+### Past Perfect 
+
+* Underline priority of a moment \(don't have to be mentioned\) - PP happens before 
+* Both moment should be in past \(can be connected to the present\) - starting point 
+* Before, until, by, after, as soon as, hardly when no sooner then 
+* V3 + had
+
+HW: 
+
+* past simple, past progressive \(one action happened in the middle of  the second\) - was/were + Ving
+* 
+
+
 ### Exercises
 
 **Notes:**
