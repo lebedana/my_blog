@@ -22,6 +22,7 @@
   * [Kubernetes](engineering/kubernetes.md)
   * [Linux tools](engineering/linux-tools.md)
   * [MLOps](engineering/mlops/README.md)
+    * [Q&A](engineering/mlops/q-and-a.md)
     * [MLflow](engineering/mlops/mlflow.md)
   * [TODO](engineering/todo.md)
 * [English](english/README.md)
