@@ -28,5 +28,21 @@ Disadvantages:
 
 {% embed url="https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&tabs=python" %}
 
+{% embed url="https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration" %}
 
+{% embed url="https://dwaiba.github.io/aks-terraform/\#aks-gpu-cluster" %}
+
+{% embed url="https://docs.microsoft.com/en-us/azure/container-instances/container-instances-gpu" caption="Description of container images and requirements " %}
+
+Try without enabling GPU drivers: 
+
+{% embed url="https://docs.microsoft.com/en-us/azure/aks/gpu-cluster" %}
+
+
+
+Fails: 
+
+* TF 1.12 fails with \(e.g. combination with version of cuda [https://github.com/tensorflow/tensorflow/issues/26209](https://github.com/tensorflow/tensorflow/issues/26209)\) - mportError: libcuda.so.1: cannot open shared object file: No such file or directory
+* conda run output result of command only after command is finished - is the only working option for container
+* AKS deploy cluster - sometimes fails on internal error when creating a cluster in western europe [https://github.com/Azure/AKS/issues/1189](https://github.com/Azure/AKS/issues/1189) 
 
