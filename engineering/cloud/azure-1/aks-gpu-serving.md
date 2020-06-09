@@ -44,5 +44,6 @@ Fails:
 
 * TF 1.12 fails with \(e.g. combination with version of cuda [https://github.com/tensorflow/tensorflow/issues/26209](https://github.com/tensorflow/tensorflow/issues/26209)\) - mportError: libcuda.so.1: cannot open shared object file: No such file or directory
 * conda run output result of command only after command is finished - is the only working option for container
-* AKS deploy cluster - sometimes fails on internal error when creating a cluster in western europe [https://github.com/Azure/AKS/issues/1189](https://github.com/Azure/AKS/issues/1189) 
+* Error: waiting for creation of Managed Kubernetes Cluster "gpucluster" \(Resource Group "gpuAksResourceGroup"\): Code="CreateVMSSAgentPoolFailed" Message="We are unable to serve this request due to an internal error, Correlation ID: 2973e2ed-9219-356b-2319-867aba0a988b, Operation ID: 45b70663-069a-4e99-a710-5c144226e26f, Timestamp: 2020-06-09T07:29:59Z." 
+  *  [https://github.com/Azure/AKS/issues/1189](https://github.com/Azure/AKS/issues/1189) 
 
