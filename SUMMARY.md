@@ -1,6 +1,8 @@
 # Table of contents
 
 * [About me](README.md)
+* [Blog](blog/README.md)
+  * [Memories](blog/memories.md)
 * [Books](books/README.md)
   * [\[April, 2020\] Radical Candor: Be a Kickass Boss Without Losing Your Humanity by Kim Malone Scott](books/april-2020-radical-candor-be-a-kickass-boss-without-losing-your-humanity-by-kim-malone-scott.md)
   * [\[April, 2020\] The Culture Code: The Secrets of Highly Successful Groups by Daniel Coyle](books/2017-the-culture-code-the-secrets-of-highly-successful-groups-by-daniel-coyle.md)
