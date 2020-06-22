@@ -9,6 +9,8 @@
 * [Engineering](engineering/README.md)
   * [Bash](engineering/bash.md)
   * [Cloud](engineering/cloud/README.md)
+    * [AWS](engineering/cloud/aws/README.md)
+      * [S3](engineering/cloud/aws/s3.md)
     * [Terraform](engineering/cloud/terraform/README.md)
       * [Hints and Parametrization](engineering/cloud/terraform/hints-and-parametrization.md)
     * [Azure](engineering/cloud/azure-1/README.md)
