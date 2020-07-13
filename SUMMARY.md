@@ -49,5 +49,6 @@
 * [Post-mortem](post-mortem/README.md)
   * [Everyday](post-mortem/everyday.md)
 * [Growth](growth/README.md)
+  * [DS - OKR](growth/ds-okr.md)
   * [Survey results analysis](growth/survey-results-analysis.md)
 
