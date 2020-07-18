@@ -10,6 +10,7 @@
 * [Engineering](engineering/README.md)
   * [Bash](engineering/bash.md)
   * [Cloud](engineering/cloud/README.md)
+    * [ADAP](engineering/cloud/adap.md)
     * [AWS](engineering/cloud/aws/README.md)
       * [S3](engineering/cloud/aws/s3.md)
     * [Terraform](engineering/cloud/terraform/README.md)

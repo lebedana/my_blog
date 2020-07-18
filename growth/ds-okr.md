@@ -20,7 +20,7 @@ description: Aug-Dec 2020
 * [ ] ECS
 * [ ] EKS
 
-Prepare a page about each underlying functionality/key features  
+Prepare "eng. minimum" page about each, which will describe functionality/key features  
 
 #### KR 2: Knowledge sharing 
 
