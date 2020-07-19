@@ -2,7 +2,7 @@
 
 * fly-flew-flown
 * steal-stole-stolen
-* swim swam swum
+* swim-swam-swum
 
 
 
