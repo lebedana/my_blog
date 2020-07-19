@@ -1,6 +1,12 @@
 # Table of contents
 
 * [About me](README.md)
+* [Language](language/README.md)
+  * [English](language/english/README.md)
+    * [New words & Phrases](language/english/new-words-and-phrases.md)
+    * [Tenses](language/english/tenses.md)
+    * [Verbs](language/english/verbs.md)
+  * [Italian](language/italian.md)
 * [Blog](blog/README.md)
   * [Memories](blog/memories.md)
 * [Books](books/README.md)
@@ -32,10 +38,6 @@
     * [Q&A](engineering/mlops/q-and-a.md)
     * [MLflow](engineering/mlops/mlflow.md)
   * [TODO](engineering/todo.md)
-* [English](english/README.md)
-  * [New words & Phrases](english/new-words-and-phrases.md)
-  * [Tenses](english/tenses.md)
-  * [Verbs](english/verbs.md)
 * [Films](films.md)
 * [History](history/README.md)
   * [US](history/us/README.md)
