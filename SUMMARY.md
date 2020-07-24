@@ -52,6 +52,7 @@
 * [Post-mortem](post-mortem/README.md)
   * [Everyday](post-mortem/everyday.md)
 * [Growth](growth/README.md)
+  * [Mentoring 24.07.2020](growth/mentoring-24.07.2020.md)
   * [DS - OKR](growth/ds-okr.md)
   * [Survey results analysis](growth/survey-results-analysis.md)
 

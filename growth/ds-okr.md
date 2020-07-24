@@ -6,18 +6,20 @@ description: Aug-Dec 2020
 
 ### Objective: RWDEx team-leading 
 
-* [ ] Increase the time team \(Sam, Tom\) spend on engineering/development activities at least by 15%
-* [ ] Reduce time spent on meetings with Zdenek by 15% \(outsource engineering from Zdenek\)
-* [ ] Increase time spent on internal bainstorming session & KT \(e.g. Docker, Jenkins\) by 15%
-* [ ] Tomas mentoring  
+* [ ] Increase the time team \(Sam, Tom\) spend on engineering/development activities 
+* [ ] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek
+* [ ] Increase time spent on internal bainstorming session & KT \(e.g. Docker, Jenkins, data\) 
+* [ ] Tomas mentoring in the project content 
 
 ### Objective: Systems design
 
 * [ ] Read "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" by Martin Kleppmann
 
-### Objective: Deepen knowledge/knowledge sharing \(AWS, deployment\) 
+### Objective: Deepen knowledge/knowledge sharing 
 
-#### KR 1: AWS
+#### KR 1: AWS \(apps/models deployment\)
+
+Prepare "eng. minimum" page about each, which will describe functionality/key features  
 
 * [ ] S3
 * [ ] KMS
@@ -25,19 +27,23 @@ description: Aug-Dec 2020
 * [ ] ECS
 * [ ] EKS
 
-Prepare "eng. minimum" page about each, which will describe functionality/key features  
++ Michal Jezek + Milan Berka \(final words\)
 
-#### KR 2: Knowledge sharing 
+* [ ] mlflow \(eng perspective\)  
 
-* [ ] Docker workshop \(for everyone\) 
-* [ ] Prepare engineering minimum with Tomas J. on Docker
-* [ ] Containers in AWS - workshop \(for engineers\) 
-* [ ] Terraform workshop - ? 
++ Olda 
+
+**KR 2: Knowledge sharing** 
+
+* [ ] Docker workshop \(for everyone\) + Michal Halenka \(final words\)
+* [ ] Engineering minimum with Tomas J. on Docker
+* [ ] Containers dep. in AWS - workshop \(for engineers\) 
+* [ ] Terraform workshop - ? + Michal Jezek + Michal Halenka
 
 #### KR 3: IaaC - actively participate in ADAP development  
 
 * [ ] Joining meetings - at least 70%
-* [ ] Increase regularity/KT ADA & ADAP sync \(high level, key questions\) 
+* [ ] Intensive KT ADA + ADAP \(high level, key questions, both directions\) 
 * [ ] Being aware of the current dev. state and goals 
 
 ### Objective: MLOPs
