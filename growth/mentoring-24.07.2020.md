@@ -9,4 +9,5 @@
   * Audioteka 
   * Budoucnost organizace 
   * Proc spime 
+* Domluva mit metroing min 1/mesic koncem mesice 
 
