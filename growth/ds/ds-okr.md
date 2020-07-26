@@ -38,7 +38,7 @@
 
 ![Us sharing knowledge](../../.gitbook/assets/whats-the-purpose-of-gaining-knowledge.jpeg)
 
-* [ ] Share AWS/mlflow related findings in eng. minimum \(+ Michal Jezek + Olda + Milan Berka - final words\)
+* [ ] Share AWS/Mlflow related findings in eng. minimum \(+ Michal Jezek + Olda + Milan Berka - final words\)
 * [ ] Post some of the ☝to DS blog
 * [ ] Containers deployment in AWS workshop - _for engineers_
 * [ ] \[started\] Docker intro workshop \(+ Michal Halenka - final words\) - _for data scientists_ 
@@ -48,7 +48,7 @@
 
 📆 Friday 14:30-18:30 
 
-### Objective: ADAP + ADA
+### Objective: ADAP + ADA project
 
 * [ ] \[started\]Joining syncs
 * [ ] \[started\] Intensive KT ADA + ADAP \(high level, key questions, **both directions**\) 
