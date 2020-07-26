@@ -2,53 +2,55 @@
 
 ![](../../.gitbook/assets/business-people-running-workers-managers-male-vector-23306068%20%281%29.jpg)
 
-### Objective: RWDEx 
+### Objective: RWDEx project
 
 * [ ] \[on-going\] Increase the time team \(Sam, Tom\) spend on engineering/development activities 
 * [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek
-* [ ] \[on-going\] Increase time spent on internal brainstorming session & KT \(e.g. Docker, Jenkins, data\) 
+* [ ] \[on-going\] Have regular brainstorming sessions & KT \(e.g. Docker, Jenkins...\) 
 
 ### Objective: Mentoring 
 
-* [ ] Mentoring of Thomas J.
-* [ ] Self-mentoring while mentoring Thomas
+* [ ] Mentoring of Tomas J.
+* [ ] Self-mentoring while mentoring Tomas 😈
 
+![](../../.gitbook/assets/gaining-knowledge.jpg)
 
-
-![](../../.gitbook/assets/1.jpg)
-
-### Objective: Deepen knowledge
+### Objective: Knowledge gaining 
 
 #### Apps/models deployment
 
-* [ ] Docker deployment in AWS \(ECS, EKS, Sagemaker, Beanstalk, Batch\) 
-* [ ] Related services: S3, KMS, ECR
+* [ ] 🆒 Docker deployment in AWS \(ECS, EKS, Sagemaker, Elastic Beanstalk, Batch\) 
+* [ ] 🆒 Related services: S3, KMS, ECR...
+* [ ] 🆙Mlflow \(models deployment\)
 
-+ Michal Jezek + Milan Berka \(final words\)
+#### IaaC 
 
-* [ ] mlflow \(eng perspective\)  
+* [ ] 🆙Terraform + related frameworks
+* [ ] 🆕Cloud formation 
+* [ ] 🆕Azure templates
 
-+ Olda + Milan Berka \(final words\)
-
-### **Systems design**
+#### **Systems design** 📚
 
 * [ ] Read "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" by Martin Kleppmann
 
-**KR 2: Knowledge sharing** 
+![](../../.gitbook/assets/whats-the-purpose-of-gaining-knowledge.jpeg)
 
-* [ ] Post some of the AWS eng. min to DS blog 
-* [ ] Docker workshop \(for everyone\) + Michal Halenka \(final words\)
-* [ ] Engineering minimum with Tomas J. on Docker
-* [ ] Containers dep. in AWS - workshop \(for engineers\) 
-* [ ] Terraform workshop - ? + Michal Jezek + Michal Halenka
-* [ ] Drive DS blog - eng part 
+### Objective: Knowledge Sharing
 
-Friday 14:30-18:30
+* [ ] Share AWS/mlflow related findings in eng. minimum \(+ Michal Jezek + Olda + Milan Berka - final words\)
+* [ ] Post some of the ☝to DS blog
+* [ ] Containers deployment in AWS workshop - _for engineers_
+* [ ] Docker intro workshop \(+ Michal Halenka - final words\) - _for data scientists_ 
+* [ ] Engineering minimum with Tomas J. on Docker __
+* [ ] ✍ Drive DS blog - especially engineering part
+* [ ] \[backlog\] Terraform workshop \(+ Michal Jezek + Michal Halenka\)
 
-#### KR 3: IaaC - actively participate in ADAP development  
+📆 Friday 14:30-18:00 
 
-* [ ] Joining meetings - at least 70%
-* [ ] Intensive KT ADA + ADAP \(high level, key questions, both directions\) 
+### Objective: ADAP + ADA
+
+* [ ] Joining syncs
+* [ ] Intensive KT ADA + ADAP \(high level, key questions, **both directions**\) 
 * [ ] Being aware of the current dev. state and goals 
 
 ### Objective: MLOPs
@@ -56,6 +58,8 @@ Friday 14:30-18:30
 * [ ] Spend 0.1FTE or more on MLOPs-related activities:
   * **Models deployment** \(outside of Databricks\) - current state \(on projects\)/share know-how/be familiar with used technologies/follow state-of-the-art
   * **Models quality/monitoring/testing** - as above
+
+ 📆Monday 14:30-18:00 
 
 
 
