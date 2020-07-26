@@ -45,7 +45,7 @@
 * [ ] ✍ Drive DS blog - especially engineering part
 * [ ] \[backlog\] Terraform workshop \(+ Michal Jezek + Michal Halenka\)
 
-📆 Friday 14:30-18:00 
+📆 Friday 14:30-18:30 
 
 ### Objective: ADAP + ADA
 
@@ -58,8 +58,6 @@
 * [ ] Spend 0.1FTE or more on MLOPs-related activities:
   * **Models deployment** \(outside of Databricks\) - current state \(on projects\)/share know-how/be familiar with used technologies/follow state-of-the-art
   * **Models quality/monitoring/testing** - as above
-
- 📆Monday 14:30-18:00 
 
 
 
