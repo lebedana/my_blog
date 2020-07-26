@@ -5,7 +5,7 @@
 ![From left to right: Tom, Nastia, Sam, Jirka :\)  ](../../.gitbook/assets/business-people-running-workers-managers-male-vector-23306068%20%281%29.jpg)
 
 * [ ] \[on-going\] Increase the time team \(Sam, Tom\) spend on engineering/development activities 
-* [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek ⬇️
+* [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek
 * [ ] \[on-going\] Have regular brainstorming sessions & KT \(e.g. Docker, Jenkins...\) 
 
 ### Objective: Mentoring 
