@@ -5,7 +5,7 @@
 ![From left to right: Tom, Nastia, Sam, Jirka :\)  ](../../.gitbook/assets/business-people-running-workers-managers-male-vector-23306068%20%281%29.jpg)
 
 * [ ] \[on-going\] Increase the time team \(Sam, Tom\) spend on engineering/development activities 
-* [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek
+* [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek ⬇️
 * [ ] \[on-going\] Have regular brainstorming sessions & KT \(e.g. Docker, Jenkins...\) 
 
 ### Objective: Mentoring 
@@ -32,7 +32,7 @@
 
 #### **Systems design** 📚
 
-* [ ] Read "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" by Martin Kleppmann
+* [ ] \[in-progress\] Read "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" by Martin Kleppmann
 
 ### Objective: Knowledge Sharing
 
@@ -41,17 +41,17 @@
 * [ ] Share AWS/mlflow related findings in eng. minimum \(+ Michal Jezek + Olda + Milan Berka - final words\)
 * [ ] Post some of the ☝to DS blog
 * [ ] Containers deployment in AWS workshop - _for engineers_
-* [ ] Docker intro workshop \(+ Michal Halenka - final words\) - _for data scientists_ 
-* [ ] Engineering minimum with Tomas J. on Docker __
-* [ ] ✍ Drive DS blog - especially engineering part
+* [ ] \[started\] Docker intro workshop \(+ Michal Halenka - final words\) - _for data scientists_ 
+* [ ] \[started\] Engineering minimum with Tomas J. on Docker __
+* [ ] \[in-progress\]✍ Drive DS blog - especially engineering part
 * [ ] \[backlog\] Terraform workshop \(+ Michal Jezek + Michal Halenka\)
 
 📆 Friday 14:30-18:30 
 
 ### Objective: ADAP + ADA
 
-* [ ] Joining syncs
-* [ ] Intensive KT ADA + ADAP \(high level, key questions, **both directions**\) 
+* [ ] \[started\]Joining syncs
+* [ ] \[started\] Intensive KT ADA + ADAP \(high level, key questions, **both directions**\) 
 * [ ] Being aware of the current dev. state and goals 
 
 ### Objective: MLOPs
