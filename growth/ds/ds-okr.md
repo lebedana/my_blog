@@ -15,7 +15,7 @@
 
 ### Objective: Knowledge gaining 
 
-![](../../.gitbook/assets/esi_meditation_lea_181017.jpg)
+![Me \(or my brain?\) learning happily](../../.gitbook/assets/esi_meditation_lea_181017.jpg)
 
 #### Apps/models deployment
 
@@ -34,9 +34,9 @@
 
 * [ ] Read "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" by Martin Kleppmann
 
-![](../../.gitbook/assets/whats-the-purpose-of-gaining-knowledge.jpeg)
-
 ### Objective: Knowledge Sharing
+
+![Us sharing knowledge](../../.gitbook/assets/whats-the-purpose-of-gaining-knowledge.jpeg)
 
 * [ ] Share AWS/mlflow related findings in eng. minimum \(+ Michal Jezek + Olda + Milan Berka - final words\)
 * [ ] Post some of the ☝to DS blog
