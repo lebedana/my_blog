@@ -1,8 +1,8 @@
 # OKRs \(Aug-Dec 2020\)
 
-![](../../.gitbook/assets/business-people-running-workers-managers-male-vector-23306068%20%281%29.jpg)
-
 ### Objective: RWDEx project
+
+![From left to right: Tom, Nastia, Sam, Jirka :\)  ](../../.gitbook/assets/business-people-running-workers-managers-male-vector-23306068%20%281%29.jpg)
 
 * [ ] \[on-going\] Increase the time team \(Sam, Tom\) spend on engineering/development activities 
 * [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek
@@ -11,23 +11,24 @@
 ### Objective: Mentoring 
 
 * [ ] Mentoring of Tomas J.
-* [ ] Self-mentoring while mentoring Tomas 😈
-
-![](../../.gitbook/assets/gaining-knowledge.jpg)
+* [ ] 😈  Self-mentoring while mentoring Tomas
 
 ### Objective: Knowledge gaining 
+
+![](../../.gitbook/assets/esi_meditation_lea_181017.jpg)
 
 #### Apps/models deployment
 
 * [ ] 🆒 Docker deployment in AWS \(ECS, EKS, Sagemaker, Elastic Beanstalk, Batch\) 
 * [ ] 🆒 Related services: S3, KMS, ECR...
-* [ ] 🆙Mlflow \(models deployment\)
+* [ ] 🆙 CI/CD tools \(Jenkins, AWS CodePipeline...\)
+* [ ] 🆙 Mlflow \(models deployment\)
 
 #### IaaC 
 
-* [ ] 🆙Terraform + related frameworks
-* [ ] 🆕Cloud formation 
-* [ ] 🆕Azure templates
+* [ ] 🆙 Terraform + related frameworks
+* [ ] 🆕 Cloud formation 
+* [ ] 🆕 Azure templates
 
 #### **Systems design** 📚
 
