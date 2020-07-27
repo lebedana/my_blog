@@ -4,14 +4,14 @@
 
 ![From left to right: Tom, Nastia, Sam, Jirka :\)  ](../../.gitbook/assets/business-people-running-workers-managers-male-vector-23306068%20%281%29.jpg)
 
-* [ ] \[on-going\] Increase the time team \(Sam, Tom\) spend on engineering/development activities 
+* [ ] \[on-going\] Increase the time team \(Sam, Tom\) spends on engineering/development activities 
 * [ ] \[on-going\] Reduce time spent on meetings with Zdenek = outsource engineering from Zdenek
 * [ ] \[on-going\] Have regular brainstorming sessions & KT \(e.g. Docker, Jenkins...\) 
 
 ### Objective: Mentoring 
 
 * [ ] Mentoring of Tomas J.
-* [ ] 😈  Self-mentoring while mentoring Tomas
+* [ ] 😈 Self-mentoring while mentoring Tomas
 
 ### Objective: Knowledge gaining 
 
@@ -43,16 +43,16 @@
 * [ ] Containers deployment in AWS workshop - _for engineers_
 * [ ] \[started\] Docker intro workshop \(+ Michal Halenka - final words\) - _for data scientists_ 
 * [ ] \[started\] Engineering minimum with Tomas J. on Docker __
-* [ ] \[in-progress\]✍ Drive DS blog - especially engineering part
+* [ ] \[in-progress\]✍Drive DS blog - especially engineering part
 * [ ] \[backlog\] Terraform workshop \(+ Michal Jezek + Michal Halenka\)
 
 📆 Friday 14:30-18:30 
 
 ### Objective: ADAP + ADA project
 
-* [ ] \[started\]Joining syncs
+* [ ] \[started\] Join syncs
 * [ ] \[started\] Intensive KT ADA + ADAP \(high level, key questions, **both directions**\) 
-* [ ] Being aware of the current dev. state and goals 
+* [ ] Be aware of the current dev. state and goals 
 
 ### Objective: MLOPs
 
