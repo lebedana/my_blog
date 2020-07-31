@@ -22,6 +22,8 @@
     * [Terraform](engineering/cloud/terraform/README.md)
       * [Hints and Parametrization](engineering/cloud/terraform/hints-and-parametrization.md)
     * [Azure](engineering/cloud/azure-1/README.md)
+      * [Use Cases](engineering/cloud/azure-1/use-cases/README.md)
+        * [Host static web](engineering/cloud/azure-1/use-cases/host-static-web.md)
       * [Azure Machine Learning](engineering/cloud/azure-1/azure-machine-learning.md)
       * [AKS GPU serving](engineering/cloud/azure-1/aks-gpu-serving.md)
       * [AKS GPU Training](engineering/cloud/azure-1/azure.md)
