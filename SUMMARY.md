@@ -61,4 +61,6 @@
   * [\[April, 2020\] The Tim Ferriss Show: Bob Iger — CEO and Chairman of Disney](podcasts/2020-the-tim-ferriss-show-bob-iger-ceo-and-chairman-of-disney.md)
 * [Post-mortem](post-mortem/README.md)
   * [Everyday](post-mortem/everyday.md)
+* [DS obecne](ds-obecne/README.md)
+  * [Sales](ds-obecne/sales.md)
 
