@@ -2,5 +2,5 @@
 description: July-Dec 2020
 ---
 
-# Personal OKRs
+# Personal
 

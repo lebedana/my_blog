@@ -4,7 +4,7 @@
 
 * Cauchserfing
 * Debating  
-* cauchserfind picknics
+* Cauchserfind picknics
 * orientaky na kole 
 * meditations/dynamic meditations
 
@@ -45,10 +45,11 @@
 
 **Month and more:**
 
+* Irland 
 * Japan
 * Italy cycling stay in winter 
 * Workaway 
 * Asia/volutneering 
 * cycling Italy from north to south 
 * England trails
-* 
+
