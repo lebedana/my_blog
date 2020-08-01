@@ -1,4 +1,4 @@
-# \[April, 2020\] Radical Candor: Be a Kickass Boss Without Losing Your Humanity by Kim Malone Scott
+# Radical Candor: Be a Kickass Boss Without Losing Your Humanity by Kim Malone Scott
 
 Links: [goodreads](https://www.goodreads.com/book/show/29939161-radical-candor?ac=1&from_search=true&qid=Ay9Ug2CHK0&rank=3)
 

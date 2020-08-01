@@ -1,4 +1,4 @@
-# \[April, 2020\] The Culture Code: The Secrets of Highly Successful Groups by Daniel Coyle
+# The Culture Code: The Secrets of Highly Successful Groups by Daniel Coyle
 
 Links: [goodreads](https://www.goodreads.com/book/show/33517721-the-culture-code) 
 
