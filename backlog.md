@@ -6,6 +6,7 @@
 * Debating  
 * cauchserfind picknics
 * orientaky na kole 
+* meditations/dynamic meditations
 
 **Local:** 
 
@@ -23,7 +24,7 @@
 
 * go to Disneyland 
 * yoga retreat
-* Plzeň and back biking 
+* Plzeň and back cycling 
 * visit London 
 * Dresden ciklosteska 
 * bikes teambuilding 
@@ -48,4 +49,6 @@
 * Italy cycling stay in winter 
 * Workaway 
 * Asia/volutneering 
+* cycling Italy from north to south 
+* England trails
 * 
