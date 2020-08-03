@@ -6,6 +6,7 @@
   * [Memories](blog/memories.md)
 * [Books \(notes\)](books/README.md)
   * [\[TODO\] How to import notes from ebook](books/todo-how-to-import-notes-from-ebook.md)
+  * [Design Data Intensive Applications](books/design-data-intensive-applications.md)
   * [21 Lessons for the 21st Century](books/21-lessons-for-the-21st-century.md)
   * [The seven Husbands of Evelyn Hugo](books/july-2020-the-seven-husbands-of-evelyn-hugo.md)
   * [Radical Candor: Be a Kickass Boss Without Losing Your Humanity by Kim Malone Scott](books/april-2020-radical-candor-be-a-kickass-boss-without-losing-your-humanity-by-kim-malone-scott.md)
