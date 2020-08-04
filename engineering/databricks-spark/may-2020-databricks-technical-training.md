@@ -1,4 +1,4 @@
-# DB Technical Training
+# \[May 2020\] Databricks Technical Training
 
 ## Preparation
 
