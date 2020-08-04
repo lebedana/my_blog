@@ -30,6 +30,8 @@ Data Lakes
   * MLflow
     * In Databricks, MLflow is automatically enabled as of MLR 5.5, and you can view your MLflow runs using the [MLflow Runs Sidebar](https://databricks.com/blog/2019/04/30/introducing-mlflow-run-sidebar-in-databricks-notebooks.html)
 
+
+
 {% embed url="https://databricks.com/blog/2019/08/14/productionizing-machine-learning-with-delta-lake.html" %}
 
 
@@ -42,4 +44,8 @@ Notes:
 
 * Terms "data swamps" - mess of data 
 * Terms "Delta Lake table", "Delta Lake format"
-* 
+
+To check: 
+
+* \(set up\) number of shuffle partitions
+
