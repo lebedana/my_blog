@@ -27,6 +27,7 @@
       * [AKS GPU Training](engineering/cloud/azure-1/azure.md)
   * [Data](engineering/data.md)
   * [Databricks/Spark](engineering/databricks-spark/README.md)
+    * [Spark](engineering/databricks-spark/spark.md)
     * [DB Partner Capstone](engineering/databricks-spark/db-partner-capstone.md)
     * [DB Technical Training](engineering/databricks-spark/may-2020-databricks-technical-training.md)
   * [Git](engineering/git/README.md)
