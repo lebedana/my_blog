@@ -54,5 +54,7 @@ Actions
 * Are eager
 * Examples: show, count, collect, save 
 
+Pipelining: 
+
 
 
