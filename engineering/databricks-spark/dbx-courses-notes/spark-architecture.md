@@ -22,7 +22,7 @@ Job
 Task
 
 * assigned to **slots** for parallel execution 
-* action which can be executed in separate - read, filter, select, groupby, rename column, drop column..
+* operations \(e.g. transofmrations\) which can be executed in separate - read, filter, select, groupby, rename column, drop column..
 
 ### Transformations, actions and execution
 
@@ -38,8 +38,11 @@ Lazy evaluation
 
 Transformations 
 
-* Narrow 
-* Wide - require data shuffle = redisribution over the system \(moved between executors\) 
+* Lazy
+* Two types
+  * Narrow 
+  * Wide - require data shuffle = redisribution over the system \(moved between executors\) 
+* Examples: select, distinct, groupBy, sum, orderBy, filter, limit
 
 Partition
 
@@ -47,6 +50,9 @@ Partition
 
 Actions
 
-* 
+* Statements which are computed AND **executed** 
+* Are eager
+* Examples: show, count, collect, save 
+
 
 
