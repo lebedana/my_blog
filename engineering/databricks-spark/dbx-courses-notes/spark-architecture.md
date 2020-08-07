@@ -1,5 +1,7 @@
 # Spark Architecture
 
+### Terms and concepts
+
 Driver
 
 * one per cluster 
@@ -15,14 +17,36 @@ Executor
 
 Job
 
-* each job is broken down into **stages** \(set of steps\)
+* each job is broken down into **stages** \(set of **tasks** which can be executed in parallel\)
 
 Task
 
 * assigned to **slots** for parallel execution 
 * action which can be executed in separate - read, filter, select, groupby, rename column, drop column..
 
+### Transformations, actions and execution
 
+Dataframe
 
+* immutable
+* carry metadata allowing to Spark to optimize queries 
+
+Lazy evaluation
+
+* allows to build a plan of **transformations**, which is executed only when an action is called
+* Required for optimization
+
+Transformations 
+
+* Narrow 
+* Wide - require data shuffle = redisribution over the system \(moved between executors\) 
+
+Partition
+
+* collection of raws 
+
+Actions
+
+* 
 
 
