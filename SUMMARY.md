@@ -29,6 +29,8 @@
   * [Data](engineering/data.md)
   * [Databricks/Spark](engineering/databricks-spark/README.md)
     * [Spark](engineering/databricks-spark/spark.md)
+    * [DBX courses notes](engineering/databricks-spark/dbx-courses-notes/README.md)
+      * [Spark Architecture](engineering/databricks-spark/dbx-courses-notes/spark-architecture.md)
     * [DB Partner Capstone](engineering/databricks-spark/db-partner-capstone.md)
     * [DB Technical Training](engineering/databricks-spark/may-2020-databricks-technical-training.md)
   * [Git](engineering/git/README.md)
