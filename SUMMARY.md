@@ -75,5 +75,6 @@
 * [Post-mortem](post-mortem/README.md)
   * [Everyday](post-mortem/everyday.md)
 * [DS obecne](ds-obecne/README.md)
+  * [PRJ](ds-obecne/prj.md)
   * [Sales](ds-obecne/sales.md)
 

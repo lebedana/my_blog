@@ -253,5 +253,5 @@ From a developer's and student's perspective my primary focus is on...
 
 
 
-{% file src="../../.gitbook/assets/lessons.dbc.zip" %}
+
 
