@@ -20,6 +20,7 @@ Job
 Task
 
 * assigned to **slots** for parallel execution 
+* action which can be executed in separate - read, filter, select, groupby, rename column, drop column..
 
 
 
