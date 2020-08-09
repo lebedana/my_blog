@@ -88,7 +88,8 @@ Catalyst Optimizer:
 * Stages:
   * Unresolved logical plan - converted codes
   * logical plan - created only if the plan from above is valid \(columns exist, types valid...\)
-  * Optimized logical plan - shuffle transformations \(e.g. joins\), group transf into stages...
-  * Physical plan 
+  * Optimized logical plan - shuffle transformations \(e.g. joins\), group transf into stages..
+    * You can add your own optimization rule 
+  * Physical plan - how the plan from above will be executed on a cluster 
   * Selected physical plan 
 
