@@ -1,5 +1,18 @@
 # Spark Architecture
 
+### Components of Spark ecosystem
+
+* Cluster manager
+  * keeps track of resources availability 
+  * e.g. Mesos, Hadoop YARN..
+* Databricks has its own 
+* Spark engine 
+  * DBX has optimized
+
+Notes:
+
+* Spark is primarily written in scala  
+
 ### Terms and concepts
 
 Driver
@@ -14,6 +27,7 @@ Executor
 * Hold a partition \(a chunk of data\)
 * Responsible for: execute assigned code, communicate state to the driver
 * Each executor has a number of slots
+* _How many executors falls in each node in DBX \(can I specify it, ...\)_
 
 Job
 
