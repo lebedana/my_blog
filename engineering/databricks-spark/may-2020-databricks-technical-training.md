@@ -1,4 +1,4 @@
-# \[May 2020\] Databricks Technical Training
+# DB Technical Training
 
 ## Preparation
 
@@ -253,5 +253,5 @@ From a developer's and student's perspective my primary focus is on...
 
 
 
-{% file src="../../.gitbook/assets/lessons.dbc.zip" %}
+
 
