@@ -1,6 +1,11 @@
 # Fundamentals of Delta Lake
 
-Terms and key concepts
+### Q to check: 
+
+* Column-like data format 
+* Partitioning \(and physical plan\)
+
+### Terms and key concepts
 
 * Cloud data platform 
 
@@ -26,5 +31,19 @@ Data lakehouse
 * end-to-end streaming 
 * transaction support 
 
+### Delta Lake
+
 For intro to delta lake see "DB Partner Capstone" page
+
+Delta data format  - based on parquet + log + meta = versining +  ACID features
+
+* Delta Files
+* Delta log 
+* Delta table registered in a metastore
+
+Delta optimization engine provides several **optimization** features,  applied when reading and writing to Delta Lake 
+
+Users interact with Delta tables \(registered\) as with **any SQL table**  
+
+
 
