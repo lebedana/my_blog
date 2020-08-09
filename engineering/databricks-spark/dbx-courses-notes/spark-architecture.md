@@ -74,13 +74,13 @@ Actions
 * Are eager
 * Examples: show, count, collect, save 
 
-Pipelining: 
+### Pipelining
 
 * Several transformations are performed at once \(e.g. map and filter\)
 * No write on disc
 * The pipelines are formed by stages \(set of transoformations which will be applied at once\) 
 
-Catalyst Optimizer: 
+### Catalyst Optimizer
 
 {% embed url="https://blog.knoldus.com/understanding-sparks-logical-and-physical-plan-in-laymans-term/" %}
 
@@ -92,4 +92,10 @@ Catalyst Optimizer:
     * You can add your own optimization rule 
   * Physical plan - how the plan from above will be executed on a cluster 
   * Selected physical plan 
+
+### Caching 
+
+
+
+
 
