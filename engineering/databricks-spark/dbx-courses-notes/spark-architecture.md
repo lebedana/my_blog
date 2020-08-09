@@ -1,6 +1,6 @@
 # Spark Architecture
 
-### Components of Spark ecosystem
+Components of Spark ecosystem
 
 * Cluster manager
   * keeps track of resources availability 
@@ -11,16 +11,21 @@
 
 Notes:
 
-* Spark is primarily written in scala  
+* Spark is primarily written in scala
+
+Questions:
+
+* \#of partitions vs number of slots/tasks \("Slot - core in the executor VM"\)
 
 ### Terms and concepts
 
 Driver
 
-* one per cluster 
-* maintaining info about spark application \(?\)
-* communicating with user program
+* one per application \(per cluster - ?\)
+* maintaining info about spark application 
+* communicating with users program
 * scheduling tasks among executors 
+* Can be driven by codes in many languages \(for which APIs are available\) 
 
 Executor
 
@@ -28,6 +33,7 @@ Executor
 * Responsible for: execute assigned code, communicate state to the driver
 * Each executor has a number of slots
 * _How many executors falls in each node in DBX \(can I specify it, ...\)_
+* Are driven mostly by codes in Scala 
 
 Job
 
@@ -70,5 +76,19 @@ Actions
 
 Pipelining: 
 
+* Several transformations are performed at once \(e.g. map and filter\)
+* No write on disc
+* The pipelines are formed by stages \(set of transoformations which will be applied at once\) 
 
+Catalyst Optimizer: 
+
+{% embed url="https://blog.knoldus.com/understanding-sparks-logical-and-physical-plan-in-laymans-term/" %}
+
+* Finds plan for applying transformations and actions 
+* Stages:
+  * Unresolved logical plan - converted codes
+  * logical plan - created only if the plan from above is valid \(columns exist, types valid...\)
+  * Optimized logical plan - shuffle transformations \(e.g. joins\), group transf into stages...
+  * Physical plan 
+  * Selected physical plan 
 
