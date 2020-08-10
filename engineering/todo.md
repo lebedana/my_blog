@@ -6,6 +6,7 @@
 * kafka
 * parquet 
 * parquet vs delta 
+* ACID transactions
 
 
 
