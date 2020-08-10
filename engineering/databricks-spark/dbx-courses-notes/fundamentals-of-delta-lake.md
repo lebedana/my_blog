@@ -48,6 +48,22 @@ Users interact with Delta tables \(registered\) as with **any SQL table**
 ### **The Power of Delta Lake**
 
 * separation of compute and storage \(scalability, availability, and cost\)
-* 
 
+**The Inmon Architecture -** Enterprise Decision Support Sytems \(EDSS\).
+
+![](../../../.gitbook/assets/image%20%284%29.png)
+
+Challenges of on-prem data warehouses: 
+
+* scalability 
+* associated cost
+* limited data types \(structured\)
+* high data gravity 
+* data duplication **\(?\)**
+
+### **Cloud-based data warehouse**
+
+###  ****
+
+\*\*\*\*
 
