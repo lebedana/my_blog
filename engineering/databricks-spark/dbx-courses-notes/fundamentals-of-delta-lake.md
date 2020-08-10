@@ -63,7 +63,32 @@ Challenges of on-prem data warehouses:
 
 ### **Cloud-based data warehouse**
 
-###  ****
+* Sep of compute and storage 
+* Elastic resource allocation 
+* CDWs are optimized for concurrent queries
+* Less maintenance required 
+
+Challenges
+
+* Structured data only 
+* Medium data gravity \(because of data types & associated ETL costs\)
+* CDWs often are not flexible in optimizing \(e.g. do not allow custom indexing, ...\) 
+* Data Lake in \(mostly\) not queryable \(only ETL\) 
+
+### Cloud data platform
+
+* all adv of data warehouses 
+* low data gravity \(any format\)
+* mix batch and streaming 
+
+Challenges: 
+
+* poor interactive query experience 
+* limited   
+
+Q: 
+
+* Data platform includes processing framework \(spark\) + possible analytic platform + BI - ?  
 
 \*\*\*\*
 
