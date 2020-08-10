@@ -41,9 +41,13 @@ Delta data format  - based on parquet + log + meta = versining +  ACID features
 * Delta log 
 * Delta table registered in a metastore
 
-Delta optimization engine provides several **optimization** features,  applied when reading and writing to Delta Lake 
+**Delta optimization engine** provides several **optimization** features,  applied when reading and writing to Delta Lake 
 
 Users interact with Delta tables \(registered\) as with **any SQL table**  
 
+### **The Power of Delta Lake**
+
+* separation of compute and storage \(scalability, availability, and cost\)
+* 
 
 
