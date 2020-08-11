@@ -84,7 +84,7 @@ Challenges
 Challenges: 
 
 * poor interactive query experience 
-* limited   
+* limited concurrence handling capability   
 
 Q: 
 

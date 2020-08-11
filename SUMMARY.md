@@ -31,6 +31,7 @@
   * [Databricks/Spark](engineering/databricks-spark/README.md)
     * [Spark doc and links](engineering/databricks-spark/spark.md)
     * [DBX courses notes](engineering/databricks-spark/dbx-courses-notes/README.md)
+      * [ETLs](engineering/databricks-spark/dbx-courses-notes/etls.md)
       * [Spark Architecture](engineering/databricks-spark/dbx-courses-notes/spark-architecture.md)
       * [Fundamentals of Delta Lake](engineering/databricks-spark/dbx-courses-notes/fundamentals-of-delta-lake.md)
     * [DB Partner Capstone](engineering/databricks-spark/db-partner-capstone.md)
