@@ -28,11 +28,13 @@ Driver
 * scheduling tasks among executors 
 * Can be driven by codes in many languages \(for which APIs are available\) 
 
-Executor = node
+Executor 
 
-* Hold a partition \(a chunk of data\)
+* JVM running on a node \(typically, 1 exec = 1 node\)
+* Holds a partition \(a chunk of data\)
 * Responsible for: execute assigned code, communicate state to the driver
-* Each executor has a number of slots
+* Each executor has a number of **slots**
+  * determined by the number of **cores**
 * _How many executors falls in each node in DBX \(can I specify it, ...\)_
 * Are driven mostly by codes in Scala 
 
