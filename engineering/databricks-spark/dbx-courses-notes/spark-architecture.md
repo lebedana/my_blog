@@ -28,7 +28,7 @@ Driver
 * scheduling tasks among executors 
 * Can be driven by codes in many languages \(for which APIs are available\) 
 
-Executor
+Executor = node
 
 * Hold a partition \(a chunk of data\)
 * Responsible for: execute assigned code, communicate state to the driver
@@ -38,12 +38,14 @@ Executor
 
 Job
 
-* each job is broken down into **stages** \(set of **tasks** which can be executed in parallel\)
+* each job is broken down into **stages** 
+* stages consists of a set of **tasks** which can be executed in parallel
 
 Task
 
 * assigned to **slots** for parallel execution 
 * operations \(e.g. transofmrations\) which can be executed in separate - read, filter, select, groupby, rename column, drop column..
+* 1 task 1 partition 1 slot 1 core
 
 ### Transformations, actions and execution
 
