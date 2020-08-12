@@ -1,4 +1,4 @@
-# DB Partner Capstone
+# Capstone
 
 Data Lakes
 

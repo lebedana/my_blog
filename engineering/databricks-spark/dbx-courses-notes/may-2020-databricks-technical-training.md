@@ -1,4 +1,4 @@
-# DB Technical Training
+# Technical Core
 
 ## Preparation
 
@@ -52,11 +52,11 @@ Challenges:
 
  
 
-![MR Problem 1](../../.gitbook/assets/image%20%281%29.png)
+![MR Problem 1](../../../.gitbook/assets/image%20%281%29.png)
 
 ## Databricks
 
-![Multiple laters of DB](../../.gitbook/assets/image%20%282%29.png)
+![Multiple laters of DB](../../../.gitbook/assets/image%20%282%29.png)
 
 
 
@@ -65,7 +65,6 @@ Apache Spark:
 * Core = Spark engine \(RUNS in worker and runner\) 
 
   * Load data to RAM \(using RDD code - resilient distributed dataset\)
-  * Distribution - if required \(when required - ?\)
   * Scheduling task and provide the workers with tasks
   * Monitoring 
   * Getting results from workers 
@@ -82,14 +81,14 @@ Apache Spark:
   * Distributed 
   * Immutable \(any modification create immutable RDD\): File1 --&gt; RDD1 --&gt; RDD2 --&gt; File2
   * Lineage
-  * Resilient \(?\)
+  * Resilient  able to recompute missing or damaged partitions 
 
     * Map
     * Transofrm
 
   * Dataframe vs RDD
-
-    * Dataframe is faster then RDD \(uses optimization when translated\)
+    * Dataframe is higer-level abstration over RDD
+    * Dataframe's API is faster then RDD's \(uses optimization when translated\)
 * Cluster:
   * Master-slave arcitecture 
   * Master=Driver \(Driver VM\)
