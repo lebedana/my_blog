@@ -26,6 +26,7 @@ Driver
 * maintaining info about spark application 
 * communicating with users program
 * scheduling tasks among executors 
+* Decide about data partitioning 
 * Can be driven by codes in many languages \(for which APIs are available\) 
 
 Executor 
