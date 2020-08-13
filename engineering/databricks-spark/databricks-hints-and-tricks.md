@@ -15,6 +15,11 @@ Pak:
 
 `schema(csvSchema) # Use the specified schema`
 
+### Tables and view
+
+* spark.catalog.listTables\(\) - show tables and views 
+* ...
+
 ### Secrets
 
 **1**. Create Key Vault & secrete keys in it
