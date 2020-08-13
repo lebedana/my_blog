@@ -18,8 +18,15 @@ Pak:
 ### Tables and view
 
 * spark.catalog.listTables\(\) - show tables and views 
-* managed tables - create perm table & copies data to efs
-* unmanaged table - files are not copied to dbfs 
+* **managed tables** - create perm table & copies data to efs vs **unmanaged tables** - files are not copied to dbfs 
+
+  * performance, cost, and security implications can be significant. In almost all use cases, **UNmanaged tables are preferred.**
+
+  \*\*\*\*
+
+**Examine table**
+
+`DESCRIBE EXTENDED tablename`
 
 ### DBFS root
 
