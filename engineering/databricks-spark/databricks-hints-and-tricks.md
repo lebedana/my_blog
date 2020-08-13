@@ -18,7 +18,8 @@ Pak:
 ### Tables and view
 
 * spark.catalog.listTables\(\) - show tables and views 
-* ...
+* managed tables - create perm table & copies data to efs
+* unmanaged table - files are not copied to dbfs 
 
 ### DBFS root
 
