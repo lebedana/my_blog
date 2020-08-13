@@ -141,22 +141,28 @@ Apache Spark:
 * Exits 
   * only in the notebook
   * only in the spark session 
-* Can be transformed to permanent table
+* Can be transformed to a permanent table
 
 ### Managed/External
 
-* Weather it will be registered in metastore or not
+* Whether it will be registered in metastore or not
 * DF.write.option\(\) - will register table to MS
 * What are other options? 
 * If we drop data, data are deleted 
-* External data drop will remove data only from the metastore 
-* ??
+* Drop on external table drop will remove data only from the metastore 
 
 ### Formats
 
-* Delta - ?
-* Parque  
-  * structured \(has schema attached\) 
+#### Delta
+
+* Extention of Parque \(see fundamentals of Delta Lake\) 
+
+#### Parque  
+
+* Spark is optimized to perform operations on parquet files
+* Note: when writing Parquet files, **all columns are automatically converted to be nullable for compatibility reasons.**
+* structured \(has schema attached\) 
+* TODO: how schema info is attached parquet
 * Snappy - impression - \(?\)
 
 ### Tips:%who DataFrame - show existing in the NB dataframes
@@ -225,26 +231,9 @@ Delta Lakes features:
   * one cluster dedicated to one stream 
   * 
 
+## Questions:
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-## Questions: 
-
-* Delta vs Parque
-
-From a developer's and student's perspective my primary focus is on...
-
+* From a developer's and student's perspective my primary focus is on...
 * The number of **Partitions** my data is divided into.
 * The number of **Slots** I have for parallel execution.
 * How many **Jobs** am I triggering?
