@@ -1,8 +1,21 @@
-# Databricks hints and tricks
+# Databricks/Spark hints and tricks
 
 * %fs magic command - wrapper around dbutils.fs 
 
-Secrets: 
+### Schema
+
+* inferSchema - .option\("inferSchema", True\) - otherwice all columns will be string
+* provide schema 
+
+`from pyspark.sql.types import DoubleType, IntegerType, StringType, StructField, StructType`
+
+`csvSchema = StructType([ StructField("index", IntegerType()), StructField("sepal_length", DoubleType()), StructField("sepal_width", DoubleType()), StructField("petal_length", DoubleType()), StructField("petal_width", DoubleType()), StructField("species", StringType()) ])`
+
+Pak:
+
+`schema(csvSchema) # Use the specified schema`
+
+### Secrets
 
 **1**. Create Key Vault & secrete keys in it
 
