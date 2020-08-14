@@ -2,6 +2,7 @@
 
 * %fs magic command - wrapper around dbutils.fs 
 * [df save mods](https://spark.apache.org/docs/2.3.0/sql-programming-guide.html#save-modes)
+  * [Table batch reads and writes](https://docs.databricks.com/delta/delta-batch.html#)
 
 ### Schema
 
