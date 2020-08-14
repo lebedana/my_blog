@@ -31,6 +31,7 @@
   * [Databricks/Spark](engineering/databricks-spark/README.md)
     * [Spark doc and links](engineering/databricks-spark/spark.md)
     * [Databricks/Spark hints and tricks](engineering/databricks-spark/databricks-hints-and-tricks.md)
+    * [Partitioning](engineering/databricks-spark/partitioning.md)
     * [DBX courses notes](engineering/databricks-spark/dbx-courses-notes/README.md)
       * [Capstone](engineering/databricks-spark/dbx-courses-notes/db-partner-capstone.md)
       * [Technical Core](engineering/databricks-spark/dbx-courses-notes/may-2020-databricks-technical-training.md)
