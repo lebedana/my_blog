@@ -86,6 +86,12 @@ Challenges:
 * poor interactive query experience 
 * limited concurrence handling capability   
 
+### Managed delta
+
+* **Optimize -** combine small files into big one \(1Gb\) 
+* **Data Skipping** is a performance optimization that aims at speeding up queries that contain filters \(WHERE clauses\).
+* **ZOrdering** is a technique to colocate related information in the same set of files.
+
 Q: 
 
 * Data platform includes processing framework \(spark\) + possible analytic platform + BI - ?  
