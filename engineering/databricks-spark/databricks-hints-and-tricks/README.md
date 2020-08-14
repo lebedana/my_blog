@@ -1,6 +1,7 @@
 # Databricks/Spark hints and tricks
 
 * %fs magic command - wrapper around dbutils.fs 
+* [df save mods](https://spark.apache.org/docs/2.3.0/sql-programming-guide.html#save-modes)
 
 ### Schema
 
