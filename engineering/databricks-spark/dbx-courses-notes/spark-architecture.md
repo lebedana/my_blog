@@ -15,7 +15,7 @@ Notes:
 
 Questions:
 
-* \#of partitions vs number of slots/tasks \("Slot - core in the executor VM"\)
+* \#of partitions vs number of slots/tasks \("Slot = core in the executor VM"\)
   * A **core** contains a unit containing an L1 cache and functional units needed to run applications. Cores can independently run applications or threads. One or more cores can exist on a single CPU.
 
 ### Terms and concepts
