@@ -1,5 +1,9 @@
 # Partitioning
 
+Get df number of partitions: 
+
+* `print("Partitions: {0:,}".format( alternateDF.rdd.getNumPartitions() ))`
+
 On disk/in data lake: 
 
 * repartition\(5\) in memory, that `partitionBy` on disk
