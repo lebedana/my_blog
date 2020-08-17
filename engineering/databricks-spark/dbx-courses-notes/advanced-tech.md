@@ -32,7 +32,11 @@ Metastore
 | How do I query across databases? | SELECT \* FROM database1.table JOIN database2.table2 |
 | How do I see all databases? | SHOW databases |
 
- ****
+ **Connect to Databricks from BI/SQL tools using jdbc driver**
+
+{% embed url="https://docs.microsoft.com/en-us/azure/databricks/integrations/bi/jdbc-odbc-bi" %}
+
+\*\*\*\*
 
 
 
