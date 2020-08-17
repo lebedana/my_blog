@@ -18,7 +18,20 @@ Metastore
 
 #### The Dataframe API
 
-* from spark 2.0 spark has supported **Dataframe** \(or **structured**\) **API** 
+* from spark 2.0 spark has supported **Dataframe** \(or **structured**\) **API**
+
+### Useful queries to get metadata
+
+| Information Needed | Query |
+| :--- | :--- |
+| What database am I using? | SELECT current\_database\(\); |
+| How do I switch databases? | USE database\_name; |
+| Where is this table located? | DESCRIBE EXTENDED table\_name |
+| What functions are available? | SHOW FUNCTIONS |
+| How do I query across databases? | SELECT \* FROM database1.table JOIN database2.table2 |
+| How do I see all databases? | SHOW databases |
+
+ ****
 
 
 
