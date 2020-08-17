@@ -86,13 +86,6 @@ Challenges:
 * poor interactive query experience 
 * limited concurrence handling capability   
 
-### Managed delta
-
-* **Optimize -** combine small files into big one \(1Gb\) 
-* **Data Skipping** is a performance optimization that aims at speeding up queries that contain filters \(WHERE clauses\).
-* **ZOrdering** is a technique to colocate related information in the same set of files.
-* **Vacuum** - To save on storage costs you should occasionally clean up invalid files using the `VACUUM` command. Invalid files are small files compacted into a larger file with the `OPTIMIZE` command.
-
 Q: 
 
 * Data platform includes processing framework \(spark\) + possible analytic platform + BI - ?  
