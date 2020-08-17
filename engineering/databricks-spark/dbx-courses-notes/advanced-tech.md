@@ -11,4 +11,5 @@ Metastore
   * maps dbs name and default location 
   * maps tables to database/location/format/schema 
   * you can set permissions for table and database livel ACLs - **\(?\)**
+  * statistics for cost based optimiztion 
 * 
