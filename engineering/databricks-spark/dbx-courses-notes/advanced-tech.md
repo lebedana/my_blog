@@ -15,6 +15,7 @@ Metastore
   * maps tables to database/location/format/schema 
   * you can set permissions for table and database livel ACLs - **\(?\)**
   * statistics for cost based optimizer - used by spark optimisation
+* one metastore per workspace 
 
 #### The Dataframe API
 
