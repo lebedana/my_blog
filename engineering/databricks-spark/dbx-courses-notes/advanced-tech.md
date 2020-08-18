@@ -67,6 +67,7 @@ Metastore
 ### System monitoring 
 
 * in build - Ganglia 
+* watchdog - metrics travel to watchdog server \(free version has limited capabilities\) 
 
 
 
