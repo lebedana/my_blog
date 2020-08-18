@@ -69,5 +69,17 @@ Metastore
 * in build - Ganglia 
 * watchdog - metrics travel to watchdog server \(free version has limited capabilities\) 
 
+### Partitioning
 
+Spark action tends to be one of three main operations:
+
+1. Read
+2. Transform
+3. Write
+
+These operations map extremely well to three different types of Spark partitions
+
+* Read - map of how data is going to be split-up so that it can flow into Spark tasks and can then be transformed and sent to future stages.
+* shuffle - used when shuffling data for joins or aggregations.
+* write - These partitions send the final data to storage.
 
