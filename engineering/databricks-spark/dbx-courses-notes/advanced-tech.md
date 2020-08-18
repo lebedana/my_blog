@@ -36,28 +36,7 @@ Metastore
 
 {% embed url="https://docs.microsoft.com/en-us/azure/databricks/integrations/bi/jdbc-odbc-bi" %}
 
-### **UDF**
+\*\*\*\*
 
-* Hive UDFs are functions written in Java or Scala
-* The UDFs can be imported into spark
-
-`%sql DROP TEMPORARY FUNCTION IF EXISTS FtoC;`
-
-`CREATE TEMPORARY FUNCTION FtoC AS "com.databricks.training.examples.FtoCUDF" USING JAR "`[`https://files.training.databricks.com/courses/hadoop-migration/CombinedUDF-1.0-SNAPSHOT.jar`](https://files.training.databricks.com/courses/hadoop-migration/CombinedUDF-1.0-SNAPSHOT.jar)`";`
-
-* What about optimization perspective? \[TODO\]
-
-### Spark UI
-
-* Stage - contains of sequence of tasks executed in parallel
-* Job is split into stages - shuffles cause stage boundaries
-* UI for aggregations: 
-  * total time = **stage execution** + scheduling + ... 
-* IMPORTANT NOTE: ****The size of the data is **how large it is in memory, not on disk**. Data in memory provides a more accurate picture rather than using the size of the data on disk. This is because data in memory has been deserialized and decompressed.
-
-Optimization
-
-* Pay attention to GC & tasks distribution 
-* 
 
 
