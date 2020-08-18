@@ -53,9 +53,6 @@ Metastore
 * Job is split into stages - shuffles cause stage boundaries
 * UI for aggregations: 
   * total time = **stage execution** + scheduling + ... 
-  * process locality - in dbx it is 
-  * input into a stage
-  * shuffle read and shuffle write 
 * IMPORTANT NOTE: ****The size of the data is **how large it is in memory, not on disk**. Data in memory provides a more accurate picture rather than using the size of the data on disk. This is because data in memory has been deserialized and decompressed.
 
 Optimization
