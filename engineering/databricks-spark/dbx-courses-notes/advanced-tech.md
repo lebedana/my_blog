@@ -45,7 +45,10 @@ Metastore
 
 `CREATE TEMPORARY FUNCTION FtoC AS "com.databricks.training.examples.FtoCUDF" USING JAR "`[`https://files.training.databricks.com/courses/hadoop-migration/CombinedUDF-1.0-SNAPSHOT.jar`](https://files.training.databricks.com/courses/hadoop-migration/CombinedUDF-1.0-SNAPSHOT.jar)`";`
 
-* 
+* What about optimization perspective? \[TODO\]
+
+### Spark UI
+
 \*\*\*\*
 
 
