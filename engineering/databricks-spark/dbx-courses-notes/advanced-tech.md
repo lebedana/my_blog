@@ -80,6 +80,8 @@ Spark action tends to be one of three main operations:
 These operations map extremely well to three different types of Spark partitions
 
 * Read - map of how data is going to be split-up so that it can flow into Spark tasks and can then be transformed and sent to future stages.
+  * default = total \#of cores
 * shuffle - used when shuffling data for joins or aggregations.
+  * default is 200
 * write - These partitions send the final data to storage.
 
