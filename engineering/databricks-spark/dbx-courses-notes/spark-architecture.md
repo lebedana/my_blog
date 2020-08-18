@@ -41,7 +41,7 @@ Executor
 
 Job
 
-* A **Job** is a sequence of **Stages**, triggered by an **Action** such as `.count()`, `foreachRdd()`, `collect()`, `read()` or `write()`
+* each job is broken down into **stages** 
 * stages consists of a set of **tasks** which can be executed in parallel
 
 Task
