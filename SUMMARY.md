@@ -80,6 +80,8 @@
 * [Travelling](travelling.md)
 * [Podcasts](podcasts/README.md)
   * [\[April, 2020\] The Tim Ferriss Show: Bob Iger — CEO and Chairman of Disney](podcasts/2020-the-tim-ferriss-show-bob-iger-ceo-and-chairman-of-disney.md)
+* [Projects](projects.md)
+* [Winter Away \(vol 1\) - Campania, Italy](winter-away-vol-1-campania-italy.md)
 * [Post-mortem](post-mortem/README.md)
   * [Everyday](post-mortem/everyday.md)
 * [DS obecne](ds-obecne/README.md)
