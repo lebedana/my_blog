@@ -32,10 +32,20 @@ Metastore
 | How do I query across databases? | SELECT \* FROM database1.table JOIN database2.table2 |
 | How do I see all databases? | SHOW databases |
 
- **Connect to Databricks from BI/SQL tools using jdbc driver**
+###  **Connect to Databricks from BI/SQL tools using jdbc driver**
 
 {% embed url="https://docs.microsoft.com/en-us/azure/databricks/integrations/bi/jdbc-odbc-bi" %}
 
+### **UDF**
+
+* Hive UDFs are functions written in Java or Scala
+* The UDFs can be imported into spark
+
+`%sql DROP TEMPORARY FUNCTION IF EXISTS FtoC;`
+
+`CREATE TEMPORARY FUNCTION FtoC AS "com.databricks.training.examples.FtoCUDF" USING JAR "`[`https://files.training.databricks.com/courses/hadoop-migration/CombinedUDF-1.0-SNAPSHOT.jar`](https://files.training.databricks.com/courses/hadoop-migration/CombinedUDF-1.0-SNAPSHOT.jar)`";`
+
+* 
 \*\*\*\*
 
 
