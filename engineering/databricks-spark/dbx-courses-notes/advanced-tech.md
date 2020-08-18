@@ -59,9 +59,14 @@ Metastore
 
 
 
-Optimization
+### Optimization
 
 * Pay attention to GC & tasks distribution 
-* 
+* ..
+
+### System monitoring 
+
+* in build - Ganglia 
+
 
 
