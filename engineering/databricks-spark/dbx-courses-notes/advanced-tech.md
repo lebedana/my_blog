@@ -89,6 +89,8 @@ These operations map extremely well to three different types of Spark partitions
 
 ## Joins
 
+* Data skew is a condition in which a table's data is unevenly distributed among partitions in the cluster
+
 spark 3 - a flexible way to choose a specific algorithm using strategy hints:
 
 ```text
