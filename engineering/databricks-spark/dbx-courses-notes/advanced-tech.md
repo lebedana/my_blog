@@ -128,10 +128,10 @@ spark.conf.set("spark.sql.broadcastTimeout", time_in_sec)
 
 ### Data Skew
 
-### 
-
 * when key column values is unevenly distributed 
   * mb cause OOM or long processing for a job 
+* Solution is managed spark - hint 
+  * `joined_df = sales_df.hint("skew", "item_id", "100").join(item_df, "item_id") joined_df.count()`
 
 
 
