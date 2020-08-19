@@ -117,7 +117,9 @@ spark.conf.set("spark.sql.broadcastTimeout", time_in_sec)
 
 ### ShuffledHashJoin <a id="7f1e"></a>
 
-* If you switch the _preferSortMergeJoin_ setting to _False_, it will choose the _SHJ_ only if one side of the join is at least three times smaller then the other side and if the average size of each partition is smaller than the _autoBroadcastJoinThreshold_ \(used also for _BHJ_\)
+* If you switch the preferSortMergeJoin setting to False, it will choose the SHJ only if one side of the join is at least three times smaller then the other side and if the average size of each partition is smaller than the autoBroadcastJoinThreshold \(used also for BHJ\)
+* as opposed to SMJ, it doesn’t require the data to be sorted \(hence, t be faster\)  
+* use when one side of the join is much smaller than the other
 
  
 
