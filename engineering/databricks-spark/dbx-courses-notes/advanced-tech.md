@@ -98,15 +98,26 @@ dfA.join(dfB.hint(algorithm), join_condition)
 ### Sort Merge join
 
 * good performance for large tables
-* steps:
-  * shuffle data by join key
-  * sort data within each partition
-  * merge 
+* _SMJ_ requires both sides of the join to have **correct partitioning** \(by join key\) and **order** and in __the general case this will be ensured by **shuffle and sort in both branches** of the join
+* Note: the shuffle and sort are very expensive operations and in principle, they can be avoided by creating the DataFrames from correctly bucketed tables, which would make the join execution more efficient. 
+* is more robust \(camparing to SHJ\) with respect to _OoM_ errors - it will store data on disc if there is not enough memory 
 
-**BroadcastHashJoin**
+### **BroadcastHashJoin**
 
 * good performance when sides are small enough \(will be stored \) in memory
 * spark will choose the algorithm when one of the sides is smaller than _autoBroadcastJoinThreshold \(_10MB is default\)
+
+```text
+spark.conf.set("spark.sql.autoBroadcastJoinThreshold", 100*1024*1024)
+```
+
+```text
+spark.conf.set("spark.sql.broadcastTimeout", time_in_sec)
+```
+
+### ShuffledHashJoin <a id="7f1e"></a>
+
+* If you switch the _preferSortMergeJoin_ setting to _False_, it will choose the _SHJ_ only if one side of the join is at least three times smaller then the other side and if the average size of each partition is smaller than the _autoBroadcastJoinThreshold_ \(used also for _BHJ_\)
 
  
 
