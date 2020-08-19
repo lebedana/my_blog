@@ -26,17 +26,13 @@ On disk/in data lake:
 
 `(retail.write.format("parquet") .mode("overwrite") .partitionBy("Country") .save(parquet_path))` 
 
-**retail\_parquet = \(spark.read.format\("parquet"\) .load\(parquet\_path\)\)**
+**read** 
 
-\*\*\*\*
+`retail_parquet = (spark.read.format("parquet") .load(parquet_path))`
 
-read 
+**convert to delta** 
 
-retail\_parquet = \(spark.read.format\("parquet"\) .load\(parquet\_path\)\)
-
-
-
-
+`spark.sql("CONVERT TO DELTA parquet.{} PARTITIONED BY (Country string)".format(parquet_path))`
 
 {% embed url="https://mungingdata.com/apache-spark/partitionby/" %}
 
