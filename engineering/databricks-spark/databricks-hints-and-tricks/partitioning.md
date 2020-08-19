@@ -18,7 +18,7 @@ On disk/in data lake:
   * It's not possible to group all records across all partitions until every task is complete \(it is the point at which all the tasks must synchronize\)
   * this is also a significant performance hit: disk IO, network IO and more disk IO.
 
-Go through to understand disc vs memory partitioning: 
+**TODO** Go through to understand disc vs memory partitioning: 
 
 {% embed url="https://mungingdata.com/apache-spark/partitionby/" %}
 
