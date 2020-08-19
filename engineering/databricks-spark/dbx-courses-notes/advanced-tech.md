@@ -84,10 +84,31 @@ These operations map extremely well to three different types of Spark partitions
 * shuffle - used when shuffling data for joins or aggregations
   * default is 200
   * think about as of join
-
-
-
- 
 * write - These partitions send the final data to storage.
   * very often, a write is combined with a final shuffle and the number of output files will be equal to the value of `spark.sql.shuffle.partitions ( the` Write Partitions send the final data to persistent storage. How many files are created on persistent storage is determined by the number of Write Partitions and their contents. \)
+
+## Joins
+
+spark 3 - a flexible way to choose a specific algorithm using strategy hints:
+
+```text
+dfA.join(dfB.hint(algorithm), join_condition)
+```
+
+### Sort Merge join
+
+* good performance for large tables
+* steps:
+  * shuffle data by join key
+  * sort data within each partition
+  * merge 
+
+**BroadcastHashJoin**
+
+* good performance when sides are small enough \(will be stored \) in memory
+* spark will choose the algorithm when one of the sides is smaller than _autoBroadcastJoinThreshold \(_10MB is default\)
+
+ 
+
+
 
