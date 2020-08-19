@@ -14,10 +14,13 @@ On disk/in data lake:
 * Partitioned data lakes can be much faster to query \(when **filtering** on the partition keys\)
 * `UnsafeRow` is the in-memory storage format for Spark SQL, DataFrames & Datasets.
 * wide transformations \(e.g. groupBy\) required shuffle: 
+
   * It's not possible to group all records across all partitions until every task is complete \(it is the point at which all the tasks must synchronize\)
   * this is also a significant performance hit: disk IO, network IO and more disk IO.
 
+Go through to understand disc vs memory partitioning: 
 
+{% embed url="https://mungingdata.com/apache-spark/partitionby/" %}
 
 {% embed url="https://stackoverflow.com/questions/45704156/what-is-the-difference-between-spark-sql-shuffle-partitions-and-spark-default-pa" %}
 
