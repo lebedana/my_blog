@@ -20,7 +20,23 @@ On disk/in data lake:
 
 **TODO** Go through to understand disc vs memory partitioning: 
 
-**TODO**: how to read/write parquete ? How to modify data on disk \(aka ewrite df in disc\) 
+**TODO**: how to read/write parquete ? How to modify data on disk \(aka ewrite df in disc\)
+
+**write**
+
+`(retail.write.format("parquet") .mode("overwrite") .partitionBy("Country") .save(parquet_path))` 
+
+**retail\_parquet = \(spark.read.format\("parquet"\) .load\(parquet\_path\)\)**
+
+\*\*\*\*
+
+read 
+
+retail\_parquet = \(spark.read.format\("parquet"\) .load\(parquet\_path\)\)
+
+
+
+
 
 {% embed url="https://mungingdata.com/apache-spark/partitionby/" %}
 
