@@ -117,6 +117,9 @@ spark.conf.set("spark.sql.autoBroadcastJoinThreshold", 100*1024*1024)
 spark.conf.set("spark.sql.broadcastTimeout", time_in_sec)
 ```
 
+* May require to calculate additional statistics on table 
+  * `ANALYZE TABLE cities COMPUTE STATISTICS FOR COLUMNS city_id, state`
+
 ### ShuffledHashJoin <a id="7f1e"></a>
 
 * If you switch the preferSortMergeJoin setting to False, it will choose the SHJ only if one side of the join is at least three times smaller then the other side and if the average size of each partition is smaller than the autoBroadcastJoinThreshold \(used also for BHJ\)
