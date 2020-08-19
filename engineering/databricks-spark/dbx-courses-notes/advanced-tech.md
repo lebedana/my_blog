@@ -89,7 +89,7 @@ These operations map extremely well to three different types of Spark partitions
 
 ## Joins
 
-* Data skew is a condition in which a table's data is unevenly distributed among partitions in the cluster
+* Data skew is a condition in which a table's data is unevenly distributed among partitions in the cluster 
 
 spark 3 - a flexible way to choose a specific algorithm using strategy hints:
 
@@ -126,7 +126,16 @@ spark.conf.set("spark.sql.broadcastTimeout", time_in_sec)
 * as opposed to SMJ, it doesn’t require the data to be sorted \(hence, t be faster\)  
 * use when one side of the join is much smaller than the other
 
- 
+### Data Skew
+
+### 
+
+* when key column values is unevenly distributed 
+  * mb cause OOM or long processing for a job 
+
+
+
+
 
 
 
