@@ -17,6 +17,7 @@
   * [Cloud](engineering/cloud/README.md)
     * [ADAP](engineering/cloud/adap.md)
     * [AWS](engineering/cloud/aws/README.md)
+      * [Lambda](engineering/cloud/aws/lambda.md)
       * [S3](engineering/cloud/aws/s3.md)
     * [Terraform](engineering/cloud/terraform/README.md)
       * [Hints and Parametrization](engineering/cloud/terraform/hints-and-parametrization.md)
