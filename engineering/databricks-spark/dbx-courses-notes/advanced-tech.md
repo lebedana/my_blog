@@ -158,6 +158,12 @@ Some important considerations:
 
 The main trade-off when comparing batch and streaming workloads are the latency requirements.
 
+### Checkpointing 
+
+{% embed url="https://spark.apache.org/docs/latest/streaming-programming-guide.html\#checkpointing" %}
+
+
+
 
 
 
