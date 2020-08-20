@@ -135,6 +135,8 @@ spark.conf.set("spark.sql.broadcastTimeout", time_in_sec)
 
 ### Streaming 
 
+#### Bronze table
+
 Multiplex table
 
 * A single stream supports ingestion from multiple external data sources
@@ -151,6 +153,10 @@ Some important considerations:
 * **Multiple concurrent streams on a shared cluster will contend for driver resources**
 * Singleplex maintains [stream/table duality](https://docs.confluent.io/current/streams/concepts.html#duality-of-streams-and-tables)
 * Decisions may be driven by how [Kakfa events and topics have been organized](https://www.confluent.io/blog/put-several-event-types-kafka-topic/)
+
+#### Batch vs Streaming workloads
+
+The main trade-off when comparing batch and streaming workloads are the latency requirements.
 
 
 
