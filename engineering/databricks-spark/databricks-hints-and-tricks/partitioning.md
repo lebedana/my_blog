@@ -18,6 +18,25 @@ On disk/in data lake:
   * It's not possible to group all records across all partitions until every task is complete \(it is the point at which all the tasks must synchronize\)
   * this is also a significant performance hit: disk IO, network IO and more disk IO.
 
+### Partitioning \(from adv course\)
+
+Spark action tends to be one of three main operations:
+
+1. Read
+2. Transform
+3. Write
+
+These operations map extremely well to three different types of Spark partitions
+
+* Read - map of how data is going to be split-up so that it can flow into Spark tasks and can then be transformed and sent to future stages.
+  * default = total \#of cores
+* shuffle - used when shuffling data for joins or aggregations
+  * default is 200
+  * `spark.conf.get("spark.sql.shuffle.partitions")`
+  * think about as of join
+* write - These partitions send the final data to storage.
+  * very often, a write is combined with a final shuffle and the number of output files will be equal to the value of `spark.sql.shuffle.partitions ( the` Write Partitions send the final data to persistent storage. How many files are created on persistent storage is determined by the number of Write Partitions and their contents. \)
+
 **TODO** Go through to understand disc vs memory partitioning: 
 
 **TODO**: how to read/write parquete? How to modify data on disk \(aka ewrite df in disc\)
