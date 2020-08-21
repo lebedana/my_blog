@@ -30,6 +30,7 @@ These operations map extremely well to three different types of Spark partitions
 
 * Read - map of how data is going to be split-up so that it can flow into Spark tasks and can then be transformed and sent to future stages.
   * default = total \#of cores
+  * determined by spark \(using `spark.sql.files.maxPartitionBytes - ? )`
 * shuffle - used when shuffling data for joins or aggregations
   * default is 200
   * `spark.conf.get("spark.sql.shuffle.partitions")`
@@ -48,7 +49,13 @@ These operations map extremely well to three different types of Spark partitions
 
 **read** 
 
-`retail_parquet = (spark.read.format("parquet") .load(parquet_path))`
+Generic API:
+
+`SparkSession.read.format(String fileformat).load(String path or List of paths)`
+
+Example \(dbx\):
+
+`retail_parquet = spark.read.format("parquet").load(parquet_path)`
 
 **convert to delta** 
 
