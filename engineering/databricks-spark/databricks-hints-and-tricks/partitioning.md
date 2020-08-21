@@ -30,7 +30,10 @@ These operations map extremely well to three different types of Spark partitions
 
 * Read - map of how data is going to be split-up so that it can flow into Spark tasks and can then be transformed and sent to future stages.
   * default = total \#of cores
-  * determined by spark \(using `spark.sql.files.maxPartitionBytes - ? )`
+  * determined by spark depending on 
+    * spark.default.parallelism \(default: Total No. of CPU cores\)
+    * spark.sql.files.maxPartitionBytes \(default: 128 MB\) 
+    * spark.sql.files.openCostInBytes \(default: 4 MB\)
 * shuffle - used when shuffling data for joins or aggregations
   * default is 200
   * `spark.conf.get("spark.sql.shuffle.partitions")`
