@@ -20,7 +20,7 @@ On disk/in data lake:
 
 **TODO** Go through to understand disc vs memory partitioning: 
 
-**TODO**: how to read/write parquete ? How to modify data on disk \(aka ewrite df in disc\)
+**TODO**: how to read/write parquete? How to modify data on disk \(aka ewrite df in disc\)
 
 **write**
 
@@ -38,5 +38,7 @@ On disk/in data lake:
 
 {% embed url="https://stackoverflow.com/questions/45704156/what-is-the-difference-between-spark-sql-shuffle-partitions-and-spark-default-pa" %}
 
+### **Tools**
 
+![](../../../.gitbook/assets/screenshot-2020-08-21-at-11.12.28.png)
 
