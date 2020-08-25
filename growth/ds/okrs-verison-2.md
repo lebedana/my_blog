@@ -7,3 +7,5 @@
 * [ ] Put together ds/eng minimum for partitioning 
 * [ ] MLOps activities and the framework 
 
+
+
