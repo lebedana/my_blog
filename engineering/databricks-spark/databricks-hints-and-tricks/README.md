@@ -53,4 +53,8 @@ The default storage location in DBFS is known as the _DBFS root_. Several types 
 Shuffle 
 
 * reduceByKey vs groupByKey vs aggregateByKey - answer at [sotf](https://stackoverflow.com/questions/43364432/spark-difference-between-reducebykey-vs-groupbykey-vs-aggregatebykey-vs-combineb#:~:text=groupByKey%28%29%20is%20just%20to,is%20something%20like%20grouping%20%2B%20aggregation.&text=aggregateByKey%28%29%20is%20logically%20same,return%20result%20in%20different%20type.)
-* 
+
+### Cache vs persist
+
+cache\(\) and persist\(\) is that using cache\(\) the default storage level is **MEMORY\_ONLY** while using persist\(\) we can use various storage levels \(MEMORY\_ONLY, MEMORY\_AND\_DISK etc\)
+
