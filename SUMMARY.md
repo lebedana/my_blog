@@ -26,7 +26,7 @@
       * [Azure Synapse](engineering/cloud/azure-1/azure-synapse.md)
       * [Azure Machine Learning](engineering/cloud/azure-1/azure-machine-learning.md)
       * [AKS GPU serving](engineering/cloud/azure-1/aks-gpu-serving.md)
-      * [Storage](engineering/cloud/azure-1/storage.md)
+      * [Data \(Storage, Databases\)](engineering/cloud/azure-1/storage.md)
       * [Use Cases](engineering/cloud/azure-1/use-cases/README.md)
         * [Host static web](engineering/cloud/azure-1/use-cases/host-static-web.md)
   * [Data](engineering/data.md)
