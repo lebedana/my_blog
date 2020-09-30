@@ -85,6 +85,7 @@ dfA.join(dfB.hint(algorithm), join_condition)
 * _SMJ_ requires both sides of the join to have **correct partitioning** \(by join key\) and **order** and in __the general case this will be ensured by **shuffle and sort in both branches** of the join
 * Note: the shuffle and sort are very expensive operations and in principle, they can be avoided by creating the DataFrames from correctly bucketed tables, which would make the join execution more efficient. 
 * is more robust \(camparing to SHJ\) with respect to _OoM_ errors - it will store data on disc if there is not enough memory 
+* _Sort Merge Joins send all records with the same join key to the same partition_
 
 ### **BroadcastHashJoin**
 
