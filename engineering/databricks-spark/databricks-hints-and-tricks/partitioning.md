@@ -42,6 +42,12 @@ These operations map extremely well to three different types of Spark partitions
   * very often, a write is combined with a final shuffle and the number of output files will be equal to the value of `spark.sql.shuffle.partitions` \(the writepPartitions send the final data to persistent storage. How many files are created on persistent storage is determined by the number of Write Partitions and their contents. \)
   * write start with scanning files in the current location \(\#tasks = number of partitions there\)
 
+**Data skew:**
+
+**Solution:**
+
+* **Adding Salt**
+
 **TODO** Go through to understand disc vs memory partitioning: 
 
 **TODO**: how to read/write parquete? How to modify data on disk \(aka ewrite df in disc\)
