@@ -76,15 +76,13 @@ Example \(dbx\):
 
 ### **Adaptive Query Execution - Spark 3**
 
+{% embed url="https://jaceklaskowski.gitbooks.io/mastering-spark-sql/content/spark-sql-adaptive-query-execution.html" %}
 
+{% embed url="https://databricks.com/blog/2020/05/29/adaptive-query-execution-speeding-up-spark-sql-at-runtime.html" %}
 
 ### **Dynamic** partitionOverwriteMode
 
 `.option('partitionOverwriteMode', 'dynamic')`
-
-###  ****
-
-### \*\*\*\*
 
 ### **Tools**
 
@@ -103,7 +101,7 @@ def printRecordsPerPartition(df):
     i = 0
     for result in results:
       i = i + 1
-      print("#{}: {:,}".ormat(i, result))
+      print("#{}: {:,}".format(i, result))
       
 printRecordsPerPartition(df_small)
 
