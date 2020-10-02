@@ -76,5 +76,24 @@ Example \(dbx\):
 
 ### **Tools**
 
-![](../../../.gitbook/assets/screenshot-2020-08-21-at-11.12.28.png)
+```text
+# number of partitions 
+print("Partitions: {0:,}".format(df_small.rdd.getNumPartitions()))
+
+# size of each parition 
+def printRecordsPerPartition(df):
+    def countInPartition(iterator): yield __builtin__.sum(1 for _ in iterator)
+    results = (df.rdd
+             .mapPartitions(countInPartition)
+             .collect()
+             )
+    print("Per-Partition Counts")
+    i = 0
+    for result in results:
+      i = i + 1
+      print("#{}: {:,}".ormat(i, result))
+      
+printRecordsPerPartition(df_small)
+
+```
 
