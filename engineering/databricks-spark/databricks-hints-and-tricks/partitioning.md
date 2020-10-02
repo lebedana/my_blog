@@ -74,6 +74,18 @@ Example \(dbx\):
 
 {% embed url="https://stackoverflow.com/questions/45704156/what-is-the-difference-between-spark-sql-shuffle-partitions-and-spark-default-pa" %}
 
+### **Adaptive Query Execution - Spark 3**
+
+
+
+### **Dynamic** partitionOverwriteMode
+
+`.option('partitionOverwriteMode', 'dynamic')`
+
+###  ****
+
+### \*\*\*\*
+
 ### **Tools**
 
 ```text
