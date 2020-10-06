@@ -17,5 +17,11 @@ grep -rnw '/path/to/somewhere/' -e 'pattern'
 find /dbfs/ -name "weather_bobo"
 ```
 
+### Conda
 
+Create env with python 3.6.
+
+```text
+conda create -n mlflowdbx python=3.6
+```
 
