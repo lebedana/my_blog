@@ -15,8 +15,6 @@ Notebooks \(+nbdev\)
 * Autocomplete \(with definite type, if a cell was executing\) 
 * Linting 
 
-
-
 [fastai](https://github.com/fastai)
 
 * fastdoc - write a book in jupyer notebooks
@@ -29,10 +27,22 @@ Notebooks \(+nbdev\)
   * Doc is nice
   * nbdev\_build\_docs - can be added to CI/CD
 
+Other tools for docs:
+
+* [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+  * Generate a doc from markdown
+  * Automatically extracts the docstrings \(Google style, [example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)\)
+  * Good overview with many broken links - [https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b](https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b)
+  * Host e.g. on github pages \(there is function to deploy the doc\)
+
 Q: 
 
 * Pytourch 
 * mypy
+* Ne flask ---&gt; [fast API](https://github.com/tiangolo/fastapi) \(podivat se dokumentaci\)
+* Pedantic - [https://github.com/samuelcolvin/pydantic/](https://github.com/samuelcolvin/pydantic/) - zajimava dokumentace - a zajimavy fram
+
+
 
 
 
