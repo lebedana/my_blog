@@ -29,11 +29,20 @@ Notebooks \(+nbdev\)
 
 Other tools for docs:
 
+* [https://www.sphinx-doc.org/en/master/](https://www.sphinx-doc.org/en/master/)
+  * see highlights 
+  * result HTML, host anywhere 
 * [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
   * Generate a doc from markdown
   * Automatically extracts the docstrings \(Google style, [example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)\)
   * Good overview with many broken links - [https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b](https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b)
   * Host e.g. on github pages \(there is function to deploy the doc\)
+  * Primary to host on gitlab or github pages 
+
+Docstrings:
+
+* \(so-called\) [NumPy style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html) docstrings.
+* \(so-called\) Google style, [example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 Q: 
 

@@ -1,6 +1,10 @@
 # Python
 
-## `__all__`
+{% embed url="https://docs.python-guide.org/" %}
+
+## Q&A: 
+
+### `__all__`
 
 {% embed url="https://stackoverflow.com/questions/44834/can-someone-explain-all-in-python" %}
 
