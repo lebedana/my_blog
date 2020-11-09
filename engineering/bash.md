@@ -25,3 +25,12 @@ Create env with python 3.6.
 conda create -n mlflowdbx python=3.6
 ```
 
+### Virtualenv
+
+```text
+python3 -m venv env
+source env/bin/activate
+```
+
+
+
