@@ -34,6 +34,7 @@
         * [Host static web](engineering/cloud/azure-1/use-cases/host-static-web.md)
   * [Data](engineering/data/README.md)
     * [Data Fromats](engineering/data/data-fromats.md)
+  * [Databases](engineering/databases.md)
   * [Databricks/Spark](engineering/databricks-spark/README.md)
     * [Spark doc and links](engineering/databricks-spark/spark.md)
     * [Databricks/Spark hints and tricks](engineering/databricks-spark/databricks-hints-and-tricks/README.md)
