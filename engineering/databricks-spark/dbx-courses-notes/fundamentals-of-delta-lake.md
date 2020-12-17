@@ -1,11 +1,6 @@
 # Fundamentals of Delta Lake
 
-### Q to check: 
-
-* Column-like data format 
-* Partitioning \(and physical plan\)
-
-### Terms and key concepts
+## Terms and key concepts
 
 * Cloud data platform 
 
