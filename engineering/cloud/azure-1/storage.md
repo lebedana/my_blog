@@ -22,7 +22,8 @@
 
 Cosmos DB
 
-*  multimodule database service 
+* insures ACID 
+* multimodule database service 
 * [Capacity mode](https://docs.microsoft.com/en-us/azure/cosmos-db/throughput-serverless)
   * Provisioned throughput - specific number of RU is allocation
   * Serverless \(using synapse?\) - is in preview, not recommended for production workloads
