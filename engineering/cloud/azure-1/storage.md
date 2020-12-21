@@ -19,12 +19,6 @@
 Cosmos DB
 
 *  multimodule database service 
-  * Easy codes migration 
-  * API
-    * Core \(SQL\) 
-    * Mango API
-    * Casandra 
-    * ...
 * [Capacity mode](https://docs.microsoft.com/en-us/azure/cosmos-db/throughput-serverless)
   * Provisioned throughput - specific number of RU is allocation
   * Serverless \(using synapse?\) - is in preview, not recommended for production workloads
@@ -38,16 +32,16 @@ Cosmos DB
   * Non-cluster index - \[meaning?\] - composite key 
 * performance \(under 10ms in 99 percentile\)
 * high availability \(multiple locations\)
-* Multi-master
+* **Multi-master**
   * Advantages
     * **Accessibility**: If one master fails, other masters continue to update the [database](https://en.wikipedia.org/wiki/Database).
     * **Distributed Access**: Masters can be located in several physical sites, i.e. distributed across the network.
-    * ? multi writes = faster writes
+    * Multi writes = faster writes
   * Disadvantages
     * **Consistency**: Most multi-master replication systems are only loosely consistent, i.e. lazy and asynchronous, violating [ACID](https://en.wikipedia.org/wiki/ACID) properties.
     * **Performance**: Eager replication systems are complex and increase communication [latency](https://en.wikipedia.org/wiki/Latency_%28engineering%29).
     * **Integrity**: Issues such as conflict resolution can become intractable as the number of nodes involved rises and latency increases.
-* Unlimited storage
+* **Unlimited storage size** 
 * Available confiurations
   * You can configure autoscaling 
   * Configure resolution to write/update conflicts 
