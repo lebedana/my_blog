@@ -2,11 +2,15 @@
 
 ## Azure Storages 
 
-* Azure Blob storage
-* Azure data lake Gen1
-* Azure data lake Gen2
+* Types
+  * Azure Blob storage
+  * Azure data lake Gen1
+  * Azure data lake Gen2
+* Chip \(perfect for binary data\)
+* Preferred for read only data \(speed cinsideration\)
+* Cache can be used - Azure Content Delivery Network \(caches data to nodes in different regions\)
 
-### Azure data Lake storage
+### Azure Data Lake storage
 
 * Hadoop access \(no in blob storage\)
 * performance 
@@ -59,6 +63,7 @@ Cosmos DB
   * **\#vCores**
   * **..**
 * Automatic tuning \(e.g. index creation\)
+* Limited size 
 
 DataFactory 
 
