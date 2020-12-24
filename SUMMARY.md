@@ -91,4 +91,6 @@
 * [DS obecne](ds-obecne/README.md)
   * [PRJ](ds-obecne/prj.md)
   * [Sales](ds-obecne/sales.md)
+* [Furniture](furniture/README.md)
+  * [Vocab](furniture/vocab.md)
 
