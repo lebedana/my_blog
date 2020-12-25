@@ -12,5 +12,5 @@
 ### Other notes
 
 *  `collection.namedtuple`  - to create simple classes with no attributes and no custom methods \(example on pg 5\)
-* `dunder-len` and `dunder-getitem` allows to operate with the class object as with iterable \(use len, indexing, slicing,  iterate over it etc\)
+* `dunder-len` and `dunder-getitem` allows to operate with the class object behaves as Python sequence \(use len, indexing, slicing,  iterate over it etc\)
 
