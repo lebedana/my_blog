@@ -38,6 +38,7 @@
       * [Technical Core](engineering/databricks-spark/dbx-courses-notes/may-2020-databricks-technical-training.md)
   * [Design Data Intensive Applications](engineering/design-data-intensive-applications.md)
   * [Development](engineering/development.md)
+  * [Fluent Python](engineering/fluent-python.md)
   * [Git](engineering/git/README.md)
     * [Store credentials](engineering/git/store-credentials.md)
     * [ssh](engineering/git/ssh.md)
