@@ -52,6 +52,7 @@
     * [Package template](engineering/python/package-template.md)
   * [TODO](engineering/todo.md)
 * [Films](films.md)
+* [Food](food.md)
 * [Growth](growth/README.md)
   * [Personal](growth/personal-okrs/README.md)
     * [Weekly Progress](growth/personal-okrs/weekly-progress.md)
