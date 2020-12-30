@@ -94,6 +94,7 @@
   * [PRJ](ds-obecne/prj.md)
   * [Sales](ds-obecne/sales.md)
 * [Furniture](furniture/README.md)
+  * [Prep](furniture/prep.md)
   * [Meterials](furniture/colors.md)
   * [Vocab](furniture/vocab.md)
 
