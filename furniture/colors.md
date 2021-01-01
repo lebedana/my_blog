@@ -20,12 +20,5 @@ Přírodní **štětec** je šikovný pro laky s rozpouštědly, umělé štětc
 * epoxy coating - Epoxidová pryskyřice 
 * interior gloss/leskly paint
 
-## Other
-
-* silica sand
-* silica gel
-
-
-
 
 
