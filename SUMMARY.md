@@ -97,5 +97,6 @@
   * [Approaches](furniture/approaches.md)
   * [Prep](furniture/prep.md)
   * [Meterials](furniture/colors.md)
+  * [Different Resigns](furniture/different-resigns.md)
   * [Vocab](furniture/vocab.md)
 
