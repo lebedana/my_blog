@@ -1,6 +1,6 @@
 # Fluent Python
 
-## \#1: Python data model
+### \#1: Python data model
 
 ### Special methods
 
@@ -13,4 +13,17 @@
 ### Other notes
 
 *  `collection.namedtuple`  - to create simple classes with no attributes and no custom methods \(example on pg 5\)
+
+### \#2: Data Structures 
+
+#### Sequences 
+
+* Containers \(can hold different types of objects\) vs flat \(can hold only objects of the same type\) 
+* Mutable vs immutables 
+* _List comprehensions_ \(also called _listcomps_\)
+* Generator expressions \(also called _genexps_\)
+
+
+
+
 
