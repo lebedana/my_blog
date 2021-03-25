@@ -1,6 +1,8 @@
 # Table of contents
 
 * [About me](README.md)
+* [Color th.](color-th..md)
+* [Art](art.md)
 * [Backlog](backlog/README.md)
   * [Napoli](backlog/napoli.md)
 * [Blog](blog/README.md)
