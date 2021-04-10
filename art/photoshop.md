@@ -13,5 +13,43 @@
 | :--- | :--- |
 | Windows -&gt; Workspace | Control wind arrangments |
 
+## Quick fixes
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Action</th>
+      <th style="text-align:left">Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Image -&gt; Auto Tone/Contrast/Color</p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Adjustments on the right panel -&gt; Levels -&gt; drag black and white
+          to touch the plot</p>
+      </td>
+      <td style="text-align:left">Adjust light</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Adjustments on the right panel -&gt; VIbrance</td>
+      <td style="text-align:left">Adjust color <b>intensity</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Adjustments on the right panel -&gt; Hue</td>
+      <td style="text-align:left">Adjust color <b>value</b>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 
