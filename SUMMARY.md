@@ -2,7 +2,8 @@
 
 * [About me](README.md)
 * [Color th.](color-th..md)
-* [Art](art.md)
+* [Art](art/README.md)
+  * [Photoshop](art/photoshop.md)
 * [Backlog](backlog/README.md)
   * [Napoli](backlog/napoli.md)
 * [Blog](blog/README.md)
