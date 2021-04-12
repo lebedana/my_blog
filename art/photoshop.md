@@ -104,6 +104,10 @@
       </td>
       <td style="text-align:left">Smooth drowe</td>
     </tr>
+    <tr>
+      <td style="text-align:left">layer style (fx) -&gt; stroke</td>
+      <td style="text-align:left">To add contour</td>
+    </tr>
   </tbody>
 </table>
 
