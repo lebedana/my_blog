@@ -51,9 +51,10 @@
   </tbody>
 </table>
 
-## Gradient
+## Gradient & Colors
 
-Select layer -&gt; fx \(bottom\) -&gt; Gradient
+* Select layer -&gt; fx \(bottom\) -&gt; Gradient
+* Windows -&gt; Extentions -&gt; Color themes 
 
 
 
