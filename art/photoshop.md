@@ -44,12 +44,16 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Adjustments on the right panel -&gt; Hue</td>
-      <td style="text-align:left">Adjust color <b>value</b>
-      </td>
+      <td style="text-align:left">Adjustments on the right panel -&gt; Hue (+ master -&gt; specific color)</td>
+      <td
+      style="text-align:left">Adjust color <b>value </b>(all or selected color)</td>
     </tr>
   </tbody>
 </table>
+
+## Gradient
+
+Select layer -&gt; fx \(bottom\) -&gt; Gradient
 
 
 
