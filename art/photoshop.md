@@ -53,8 +53,61 @@
 
 ## Gradient & Colors
 
-* Select layer -&gt; fx \(bottom\) -&gt; Gradient
-* Windows -&gt; Extentions -&gt; Color themes 
+* * 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Action</th>
+      <th style="text-align:left">Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Select layer -&gt; fx (bottom) -&gt; Gradient</p>
+      </td>
+      <td style="text-align:left">Add gradient to the layer</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Windows -&gt; Extentions -&gt; Color themes</p>
+      </td>
+      <td style="text-align:left">Browse and utilize color themes</td>
+    </tr>
+  </tbody>
+</table>
+
+## Text
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Action</th>
+      <th style="text-align:left">Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Type -&gt; insert lorem ipsum</p>
+      </td>
+      <td style="text-align:left">Inserts text filling up the text form</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Pen icon (left panel) -&gt; freeform pen tool -&gt; setting icon (top
+          panel) -&gt; curve fit</p>
+      </td>
+      <td style="text-align:left">Smooth drowe</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
