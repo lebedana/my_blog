@@ -106,12 +106,24 @@
     </tr>
     <tr>
       <td style="text-align:left">layer style (fx) -&gt; stroke</td>
-      <td style="text-align:left">To add contour</td>
+      <td style="text-align:left">To add contour (work for general layers too)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">copy/paste layer style</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
 
+## Shadow 
 
+| Action | Effect |
+| :--- | :--- |
+| Layer style \(fx\) -&gt; Bevel & Emboss -&gt; outer Bevel | Add simple shadow |
 
 
 
