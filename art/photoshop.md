@@ -113,8 +113,9 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Move background layer on top of text layer -&gt; layer -&gt; create clipping
+        mask</td>
+      <td style="text-align:left">Fills text with image content</td>
     </tr>
   </tbody>
 </table>
@@ -124,6 +125,8 @@
 | Action | Effect |
 | :--- | :--- |
 | Layer style \(fx\) -&gt; Bevel & Emboss -&gt; outer Bevel | Add simple shadow |
+| Layer style \(fx\) -&gt; Drop shadow |  |
+| Layer style \(fx\) -&gt; Global light checkbox | Set light for the img globaly  |
 
 
 
