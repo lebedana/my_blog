@@ -127,6 +127,19 @@
 | Layer style \(fx\) -&gt; Bevel & Emboss -&gt; outer Bevel | Add simple shadow |
 | Layer style \(fx\) -&gt; Drop shadow |  |
 | Layer style \(fx\) -&gt; Global light checkbox | Set light for the img globaly  |
+| Burn tool | Add shadow manualy  |
 
+## Mask
 
+| Action | Effect |
+| :--- | :--- |
+| Any selection tool -&gt; add layer mask \(down right panel\)  | Creates mask with selection |
+| Create mask -&gt; Select and Mask -&gt; Use brash tools  |  |
+
+#### Refine mask 
+
+Create mask -&gt; Select and Mask 
+
+* Use options on the right 
+* Use 
 
