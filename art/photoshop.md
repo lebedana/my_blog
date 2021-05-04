@@ -56,7 +56,7 @@
     <tr>
       <td style="text-align:left">Drag image to another -&gt; Select &quot;Multiply&quot; blending option</td>
       <td
-      style="text-align:left">Remove background</td>
+      style="text-align:left">Remove background (mainly, white)</td>
     </tr>
   </tbody>
 </table>
