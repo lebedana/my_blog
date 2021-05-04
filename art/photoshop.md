@@ -149,7 +149,9 @@ Essential for scaling objects
 
 * Conver back from smart object -&gt; right click on layer, rasterize layer 
 
+## Transform objects 
 
+* Select Layer -&gt; Edit -&gt; Transform -&gt; {Skew, Distort, Warp \(Soft\)}
 
 
 
