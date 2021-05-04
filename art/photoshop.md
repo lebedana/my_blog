@@ -140,6 +140,16 @@
 
 Create mask -&gt; Select and Mask 
 
-* Use options on the right 
-* Use 
+* Use global options on the right panel 
+* Or brushes on the left panel
+
+## Smart objects 
+
+Essential for scaling objects 
+
+* Conver back from smart object -&gt; right click on layer, rasterize layer 
+
+
+
+
 
