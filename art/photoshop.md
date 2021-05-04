@@ -53,7 +53,6 @@
 
 ## Gradient & Colors
 
-* * 
 <table>
   <thead>
     <tr>
@@ -113,8 +112,8 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Move background layer on top of text layer -&gt; layer -&gt; create clipping
-        mask</td>
+      <td style="text-align:left"><b>Move background layer on top of text layer -&gt; layer -&gt; create clipping mask </b>
+      </td>
       <td style="text-align:left">Fills text with image content</td>
     </tr>
   </tbody>
@@ -157,5 +156,9 @@ Body parts & other soft objects
 
 * Covert layer to a smart object -&gt; filter -&gt; liquify 
 
+Remove things
 
+| Action | Effect |
+| :--- | :--- |
+| Select part to remove \(e.g. using polygon lasso\) -&gt; Edit -&gt; Fill \(content-aware option\) | Removes objects using content info |
 
