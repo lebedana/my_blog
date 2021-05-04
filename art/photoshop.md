@@ -53,6 +53,11 @@
         Healing Brush Tool&quot;</td>
       <td style="text-align:left">Small fixes (object removals, red, eyes fix etc)</td>
     </tr>
+    <tr>
+      <td style="text-align:left">Drag image to another -&gt; Select &quot;Multiply&quot; blending option</td>
+      <td
+      style="text-align:left">Remove background</td>
+    </tr>
   </tbody>
 </table>
 
