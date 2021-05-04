@@ -48,6 +48,11 @@
       <td
       style="text-align:left">Adjust color <b>value </b>(all or selected color)</td>
     </tr>
+    <tr>
+      <td style="text-align:left">Lew layer (sample all layers selected) -&gt; use a tool under &quot;Spot
+        Healing Brush Tool&quot;</td>
+      <td style="text-align:left">Small fixes (object removals, red, eyes fix etc)</td>
+    </tr>
   </tbody>
 </table>
 
