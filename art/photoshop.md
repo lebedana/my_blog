@@ -153,5 +153,9 @@ Essential for scaling objects
 
 * Select Layer -&gt; Edit -&gt; Transform -&gt; {Skew, Distort, Warp \(Soft\)}
 
+Body parts & other soft objects 
+
+* Covert layer to a smart object -&gt; filter -&gt; liquify 
+
 
 
