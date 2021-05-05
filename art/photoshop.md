@@ -11,7 +11,7 @@
 
 | Tabs | Action |
 | :--- | :--- |
-| Windows -&gt; Workspace | Control wind arrangments |
+| Windows -&gt; Workspace | Control wind. arrangments |
 
 ## Quick fixes
 
@@ -122,7 +122,7 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Move background layer on top of text layer -&gt; layer -&gt; create clipping mask </b>
+      <td style="text-align:left"><em><b>Move background layer on top of text layer -&gt; layer -&gt; create clipping mask </b></em>
       </td>
       <td style="text-align:left">Fills text with image content</td>
     </tr>
