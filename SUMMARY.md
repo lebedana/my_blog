@@ -4,6 +4,7 @@
 * [Color th.](color-th..md)
 * [Art](art/README.md)
   * [Furn](art/furn/README.md)
+    * [Restoration](art/furn/restoration.md)
     * [Kasat vse](art/furn/kasat-vse.md)
   * [Photoshop](art/photoshop.md)
 * [Backlog](backlog/README.md)
