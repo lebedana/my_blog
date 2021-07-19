@@ -32,6 +32,25 @@
 ### Oiled
 
 * Penetrates into wood
+* Three types: tung, linseed and danish oil 
+
+
+
+#### Tung oil 
+
+* 4-5 coats
+* more water resistent
+
+#### Linseed oil 
+
+* max two coats - more give no result 
+* not very water resistent 
+
+#### Danish oil 
+
+* Mix of poly & tung or linseed oil 
+
+
 
 
 
